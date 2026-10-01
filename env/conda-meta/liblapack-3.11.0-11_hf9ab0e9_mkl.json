@@ -1,0 +1,45 @@
+{
+  "name": "liblapack",
+  "version": "3.11.0",
+  "build": "11_hf9ab0e9_mkl",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "liblapack-3.11.0-11_hf9ab0e9_mkl.conda",
+  "md5": "79bdf20fd2666b8a3485a6021c935b3a",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-11_hf9ab0e9_mkl.conda",
+  "sha256": "460a2b9896bbee9a3cdfef26d1fdce056028291eef104564082de9e9f566bba6",
+  "depends": [
+    "libblas 3.11.0 11_h8455456_mkl"
+  ],
+  "constrains": [
+    "blas 2.311 mkl",
+    "libcblas 3.11.0 11*_mkl",
+    "liblapacke 3.11.0 11*_mkl"
+  ],
+  "license": "BSD-3-Clause",
+  "timestamp": 1789061364082,
+  "size": 79503,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\liblapack-3.11.0-11_hf9ab0e9_mkl.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\liblapack-3.11.0-11_hf9ab0e9_mkl",
+  "files": [
+    "Library/bin/liblapack.dll"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/liblapack.dll",
+        "path_type": "hardlink",
+        "sha256": "a3806f78557872e2788f158d5eed6c657bfad10fb9e5c4a04d04ead421962c55",
+        "size_in_bytes": 180736,
+        "sha256_in_prefix": "a3806f78557872e2788f158d5eed6c657bfad10fb9e5c4a04d04ead421962c55"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\liblapack-3.11.0-11_hf9ab0e9_mkl",
+    "type": 1
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "name": "pyro5",
+  "version": "5.17",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "pyro5-5.17-pyhd8ed1ab_0.conda",
+  "md5": "10b2de3ea93559d8022edeb37ed99cee",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyro5-5.17-pyhd8ed1ab_0.conda",
+  "sha256": "f7ae9ff76867c2afd46c14f38cfc48b75a6572433cd65587d7e51d51f302e94c",
+  "depends": [
+    "python >=3.10",
+    "serpent >=1.27"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1781963809676,
+  "size": 68824,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\pyro5-5.17-pyhd8ed1ab_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\pyro5-5.17-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/Pyro5/__init__.py",
+    "Lib/site-packages/Pyro5/api.py",
+    "Lib/site-packages/Pyro5/callcontext.py",
+    "Lib/site-packages/Pyro5/client.py",
+    "Lib/site-packages/Pyro5/compatibility/Pyro4.py",
+    "Lib/site-packages/Pyro5/compatibility/__init__.py",
+    "Lib/site-packages/Pyro5/configure.py",
+    "Lib/site-packages/Pyro5/core.py",
+    "Lib/site-packages/Pyro5/errors.py",
+    "Lib/site-packages/Pyro5/nameserver.py",
+    "Lib/site-packages/Pyro5/nsc.py",
+    "Lib/site-packages/Pyro5/protocol.py",
+    "Lib/site-packages/Pyro5/serializers.py",
+    "Lib/site-packages/Pyro5/server.py",
+    "Lib/site-packages/Pyro5/socketutil.py",
+    "Lib/site-packages/Pyro5/svr_existingconn.py",
+    "Lib/site-packages/Pyro5/svr_multiplex.py",
+    "Lib/site-packages/Pyro5/svr_threads.py",
+    "Lib/site-packages/Pyro5/utils/__init__.py",
+    "Lib/site-packages/Pyro5/utils/echoserver.py",
+    "Lib/site-packages/Pyro5/utils/httpgateway.py",
+    "Lib/site-packages/pyro5-5.17.dist-info/INSTALLER",
+    "Lib/site-packages/pyro5-5.17.dist-info/METADATA",
+    "Lib/site-packages/pyro5-5.17.dist-info/RECORD",
+    "Lib/site-packages/pyro5-5.17.dist-info/REQUESTED",
+    "Lib/site-packages/pyro5-5.17.dist-info/WHEEL",
+    "Lib/site-packages/pyro5-5.17.dist-info/direct_url.json",
+    "Lib/site-packages/pyro5-5.17.dist-info/entry_points.txt",
+    "Lib/site-packages/pyro5-5.17.dist-info/licenses/LICENSE",
+    "Lib/site-packages/pyro5-5.17.dist-info/top_level.txt",
+    "Lib/site-packages/pyro5-5.17.dist-info/zip-safe",
+    "Lib/site-packages/Pyro5/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/api.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/callcontext.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/client.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/compatibility/__pycache__/Pyro4.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/compatibility/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/configure.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/core.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/errors.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/nameserver.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/nsc.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/protocol.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/serializers.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/server.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/socketutil.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/svr_existingconn.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/svr_multiplex.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/__pycache__/svr_threads.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/utils/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/utils/__pycache__/echoserver.cpython-314.pyc",
+    "Lib/site-packages/Pyro5/utils/__pycache__/httpgateway.cpython-314.pyc",
+    "Scripts/pyro5-ns-script.py",
+    "Scripts/pyro5-nsc-script.py",
+    "Scripts/pyro5-echoserver-script.py",
+    "Scripts/pyro5-check-config-script.py",
+    "Scripts/pyro5-httpgateway-script.py",
+    "Scripts/pyro5-ns.exe",
+    "Scripts/pyro5-nsc.exe",
+    "Scripts/pyro5-echoserver.exe",
+    "Scripts/pyro5-check-config.exe",
+    "Scripts/pyro5-httpgateway.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/Pyro5/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cc8ffd062d1fa782d5130761ef1b64296d61609913a4b06be26cfccb6b74a2e",
+        "size_in_bytes": 1723,
+        "sha256_in_prefix": "8cc8ffd062d1fa782d5130761ef1b64296d61609913a4b06be26cfccb6b74a2e"
+      },
+      {
+        "_path": "site-packages/Pyro5/api.py",
+        "path_type": "hardlink",
+        "sha256": "6472513770abc171e3e8fad9b33dd062fb39cd882bcdab4f100cc64d4753905b",
+        "size_in_bytes": 1488,
+        "sha256_in_prefix": "6472513770abc171e3e8fad9b33dd062fb39cd882bcdab4f100cc64d4753905b"
+      },
+      {
+        "_path": "site-packages/Pyro5/callcontext.py",
+        "path_type": "hardlink",
+        "sha256": "ebc0b0645fc4ecdabb14143742da84209ea96d75312517483f105e0b9f1c54a2",
+        "size_in_bytes": 1753,
+        "sha256_in_prefix": "ebc0b0645fc4ecdabb14143742da84209ea96d75312517483f105e0b9f1c54a2"
+      },
+      {
+        "_path": "site-packages/Pyro5/client.py",
+        "path_type": "hardlink",
+        "sha256": "0c10501fc2547e269dc8026a4cb5a7ffde47dd000eb0446223d9d3c99411055e",
+        "size_in_bytes": 31883,
+        "sha256_in_prefix": "0c10501fc2547e269dc8026a4cb5a7ffde47dd000eb0446223d9d3c99411055e"
+      },
+      {
+        "_path": "site-packages/Pyro5/compatibility/Pyro4.py",
+        "path_type": "hardlink",
+        "sha256": "fcfb8d3482f7a7228ec939f6a91bdf48429c05573da900c9d059dec03e0d808a",
+        "size_in_bytes": 6056,
+        "sha256_in_prefix": "fcfb8d3482f7a7228ec939f6a91bdf48429c05573da900c9d059dec03e0d808a"
+      },
+      {
+        "_path": "site-packages/Pyro5/compatibility/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/Pyro5/configure.py",
+        "path_type": "hardlink",
+        "sha256": "54a8d1a5938eb521e4cf40cded1e67f6de7bbdf7021b9f9d525dba646dd7b775",
+        "size_in_bytes": 5665,
+        "sha256_in_prefix": "54a8d1a5938eb521e4cf40cded1e67f6de7bbdf7021b9f9d525dba646dd7b775"
+      },
+      {
+        "_path": "site-packages/Pyro5/core.py",
+        "path_type": "hardlink",
+        "sha256": "7a45c309be2ec226d27d3658a63866e2ea86927dcc486fa0d721dbf41c26b1eb",
+        "size_in_bytes": 13312,
+        "sha256_in_prefix": "7a45c309be2ec226d27d3658a63866e2ea86927dcc486fa0d721dbf41c26b1eb"
+      },
+      {
+        "_path": "site-packages/Pyro5/errors.py",
+        "path_type": "hardlink",
+        "sha256": "a1cc6ec6edc0adfe642460e488178d714e219c7ca083dd024837ca7a407de7fa",
+        "size_in_bytes": 6689,
+        "sha256_in_prefix": "a1cc6ec6edc0adfe642460e488178d714e219c7ca083dd024837ca7a407de7fa"
+      },
+      {
+        "_path": "site-packages/Pyro5/nameserver.py",
+        "path_type": "hardlink",
+        "sha256": "f118a8658ed4e0b3b8b60f3769bd0f3326e15980a042735c4800b7d0f1065e29",
+        "size_in_bytes": 35109,
+        "sha256_in_prefix": "f118a8658ed4e0b3b8b60f3769bd0f3326e15980a042735c4800b7d0f1065e29"
+      },
+      {
+        "_path": "site-packages/Pyro5/nsc.py",
+        "path_type": "hardlink",
+        "sha256": "190db6295d79688e2541f54145d12c555244600a286178f680600a14e500f9fb",
+        "size_in_bytes": 4765,
+        "sha256_in_prefix": "190db6295d79688e2541f54145d12c555244600a286178f680600a14e500f9fb"
+      },
+      {
+        "_path": "site-packages/Pyro5/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "c5dc152f2ae9d75e9003ec0284cae80e9c7690b41fbf82ae6423040303682d77",
+        "size_in_bytes": 9121,
+        "sha256_in_prefix": "c5dc152f2ae9d75e9003ec0284cae80e9c7690b41fbf82ae6423040303682d77"
+      },
+      {
+        "_path": "site-packages/Pyro5/serializers.py",
+        "path_type": "hardlink",
+        "sha256": "077c600eba3d1357183c08f3fad8cfd50a34e7ec64851adca4b7d288c123245c",
+        "size_in_bytes": 20346,
+        "sha256_in_prefix": "077c600eba3d1357183c08f3fad8cfd50a34e7ec64851adca4b7d288c123245c"
+      },
+      {
+        "_path": "site-packages/Pyro5/server.py",
+        "path_type": "hardlink",
+        "sha256": "553bbb0973167a3ac231d7ea3d857ddfc415e912df5789224eb2c092571bae20",
+        "size_in_bytes": 50179,
+        "sha256_in_prefix": "553bbb0973167a3ac231d7ea3d857ddfc415e912df5789224eb2c092571bae20"
+      },
+      {
+        "_path": "site-packages/Pyro5/socketutil.py",
+        "path_type": "hardlink",
+        "sha256": "c29e8fa73c92704f0d501e4c3a062e9fd3bd2f3619a676558a1e9de3a112fd5c",
+        "size_in_bytes": 23478,
+        "sha256_in_prefix": "c29e8fa73c92704f0d501e4c3a062e9fd3bd2f3619a676558a1e9de3a112fd5c"
+      },
+      {
+        "_path": "site-packages/Pyro5/svr_existingconn.py",
+        "path_type": "hardlink",
+        "sha256": "5dbc622d00fdf47a7d743640aa5876f1599ee2e2928bc4d5e47d3ea9caa48b4f",
+        "size_in_bytes": 4050,
+        "sha256_in_prefix": "5dbc622d00fdf47a7d743640aa5876f1599ee2e2928bc4d5e47d3ea9caa48b4f"
+      },
+      {
+        "_path": "site-packages/Pyro5/svr_multiplex.py",
+        "path_type": "hardlink",
+        "sha256": "b1a90d2df1fd1bd040ba6b5eff8274949f5b3277c9ad44751379e6df667ff80a",
+        "size_in_bytes": 9093,
+        "sha256_in_prefix": "b1a90d2df1fd1bd040ba6b5eff8274949f5b3277c9ad44751379e6df667ff80a"
+      },
+      {
+        "_path": "site-packages/Pyro5/svr_threads.py",
+        "path_type": "hardlink",
+        "sha256": "3d8b42b30e985ae5c5c85ce4cfebecee5b86842e8643604fa9e5ea6343361f1d",
+        "size_in_bytes": 13580,
+        "sha256_in_prefix": "3d8b42b30e985ae5c5c85ce4cfebecee5b86842e8643604fa9e5ea6343361f1d"
+      },
+      {
+        "_path": "site-packages/Pyro5/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bcd150bf36d9acfee40503d7937c0e91ea37b7b7be97e3f24599a99f3d101b74",
+        "size_in_bytes": 31,
+        "sha256_in_prefix": "bcd150bf36d9acfee40503d7937c0e91ea37b7b7be97e3f24599a99f3d101b74"
+      },
+      {
+        "_path": "site-packages/Pyro5/utils/echoserver.py",
+        "path_type": "hardlink",
+        "sha256": "9fa4c4ac1330f092802ae7302d1afc3234c148f6b33bc6368b5bd7c629b6a9ca",
+        "size_in_bytes": 6704,
+        "sha256_in_prefix": "9fa4c4ac1330f092802ae7302d1afc3234c148f6b33bc6368b5bd7c629b6a9ca"
+      },
+      {
+        "_path": "site-packages/Pyro5/utils/httpgateway.py",
+        "path_type": "hardlink",
+        "sha256": "9ba7aff89f33a01bf47d855990fe842f138b8da76b3020117b898c452fe8b14f",
+        "size_in_bytes": 17035,
+        "sha256_in_prefix": "9ba7aff89f33a01bf47d855990fe842f138b8da76b3020117b898c452fe8b14f"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2e8f5712688a9549bdaf1065f8ab3d8bd16768561b620319e14c71472fa7c669",
+        "size_in_bytes": 5210,
+        "sha256_in_prefix": "2e8f5712688a9549bdaf1065f8ab3d8bd16768561b620319e14c71472fa7c669"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dc65d6ba164be0569a1162847979021059b955be99a22a8c3e2864a32bd8fbcc",
+        "size_in_bytes": 3897,
+        "sha256_in_prefix": "dc65d6ba164be0569a1162847979021059b955be99a22a8c3e2864a32bd8fbcc"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d9f64cffd48bc752d9f70e567b668beae97f8e2ab8bb98ccce364fd5b9066931",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "d9f64cffd48bc752d9f70e567b668beae97f8e2ab8bb98ccce364fd5b9066931"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "55f47322705329dd68be59cb8b2bf6c810ead1a0f9dc9f55f1b12f5414789411",
+        "size_in_bytes": 216,
+        "sha256_in_prefix": "55f47322705329dd68be59cb8b2bf6c810ead1a0f9dc9f55f1b12f5414789411"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "29e7a3bf5dab2d08c95830e8e09becd34db5544ad58829ff7e3a3b2ef5ce7155",
+        "size_in_bytes": 1065,
+        "sha256_in_prefix": "29e7a3bf5dab2d08c95830e8e09becd34db5544ad58829ff7e3a3b2ef5ce7155"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "78a2490a9d9bae050f3d8bb39e3c9fd32a2e9d63e6cb2134a8262bcac9939495",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "78a2490a9d9bae050f3d8bb39e3c9fd32a2e9d63e6cb2134a8262bcac9939495"
+      },
+      {
+        "_path": "site-packages/pyro5-5.17.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1,
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/api.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/callcontext.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/client.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 40345
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/compatibility/__pycache__/Pyro4.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 10380
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/compatibility/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/configure.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7600
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/core.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 20175
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/errors.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 9176
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/nameserver.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 51900
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/nsc.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8126
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/protocol.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 13649
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/serializers.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 30091
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/server.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 62083
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/socketutil.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 37034
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/svr_existingconn.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7048
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/svr_multiplex.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 14083
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/__pycache__/svr_threads.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 23722
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/utils/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/utils/__pycache__/echoserver.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 11670
+      },
+      {
+        "_path": "Lib/site-packages/Pyro5/utils/__pycache__/httpgateway.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 21006
+      },
+      {
+        "_path": "Scripts/pyro5-ns-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "Scripts/pyro5-nsc-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Scripts/pyro5-echoserver-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Scripts/pyro5-check-config-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "Scripts/pyro5-httpgateway-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "Scripts/pyro5-ns.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pyro5-nsc.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pyro5-echoserver.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pyro5-check-config.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pyro5-httpgateway.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\pyro5-5.17-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

@@ -10,7 +10,7 @@ dynamic = ["version"]
 
 # All direct python dependencies should be listed here. If a package is
 # available from conda-forge, it can also be listed under the conda_dependencies.
-dependencies = [
+dependencies = [ # EK - what I update for my plug-in, who updates the dependencies, responsibility of the plug-in author to make sure they still work
   "pygeoprocessing",
   "taskgraph",
   "natcap.invest>=3.18.0"

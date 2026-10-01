@@ -1,0 +1,113 @@
+{
+  "name": "serpent",
+  "version": "1.43",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "serpent-1.43-pyhd8ed1ab_0.conda",
+  "md5": "2c556425927e1c36f13e2fb2add35bca",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/serpent-1.43-pyhd8ed1ab_0.conda",
+  "sha256": "49b7b21ab2808e9243687a242784329f75c7b58facf1859001251a2bd76487ea",
+  "depends": [
+    "python >=3.10"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1780174175031,
+  "size": 16211,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\serpent-1.43-pyhd8ed1ab_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\serpent-1.43-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/serpent-1.43.dist-info/INSTALLER",
+    "Lib/site-packages/serpent-1.43.dist-info/METADATA",
+    "Lib/site-packages/serpent-1.43.dist-info/RECORD",
+    "Lib/site-packages/serpent-1.43.dist-info/REQUESTED",
+    "Lib/site-packages/serpent-1.43.dist-info/WHEEL",
+    "Lib/site-packages/serpent-1.43.dist-info/direct_url.json",
+    "Lib/site-packages/serpent-1.43.dist-info/licenses/LICENSE",
+    "Lib/site-packages/serpent-1.43.dist-info/top_level.txt",
+    "Lib/site-packages/serpent.py",
+    "Lib/site-packages/__pycache__/serpent.cpython-314.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4514c6a2042cc9d601221d41aa2a6dee5867397148657a91f87c4fb404ed8a64",
+        "size_in_bytes": 6052,
+        "sha256_in_prefix": "4514c6a2042cc9d601221d41aa2a6dee5867397148657a91f87c4fb404ed8a64"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca6e9270c636b3dbfdc59f60dd9d379328f6c2cd06615ed20c8caa6c006d535e",
+        "size_in_bytes": 771,
+        "sha256_in_prefix": "ca6e9270c636b3dbfdc59f60dd9d379328f6c2cd06615ed20c8caa6c006d535e"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "045601fb74e97bd2a19262343d3d6f40fca736b42690efd0a37ce4941f1d7799",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "045601fb74e97bd2a19262343d3d6f40fca736b42690efd0a37ce4941f1d7799"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "253c731ab14abcdfdf24994409f6eae761aa78e25354a6b71c998d30f3e35656",
+        "size_in_bytes": 1068,
+        "sha256_in_prefix": "253c731ab14abcdfdf24994409f6eae761aa78e25354a6b71c998d30f3e35656"
+      },
+      {
+        "_path": "site-packages/serpent-1.43.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f65603306748f73f53f075ba3210d253b5370949c8ea2b67428c0db530aeb612",
+        "size_in_bytes": 8,
+        "sha256_in_prefix": "f65603306748f73f53f075ba3210d253b5370949c8ea2b67428c0db530aeb612"
+      },
+      {
+        "_path": "site-packages/serpent.py",
+        "path_type": "hardlink",
+        "sha256": "ac3e96085e65f34ac06f1807e51a066319f81fdfae4201da8b9b995aca6c2776",
+        "size_in_bytes": 20962,
+        "sha256_in_prefix": "ac3e96085e65f34ac06f1807e51a066319f81fdfae4201da8b9b995aca6c2776"
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/serpent.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 26662
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\serpent-1.43-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

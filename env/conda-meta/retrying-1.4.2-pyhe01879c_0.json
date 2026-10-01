@@ -1,0 +1,122 @@
+{
+  "name": "retrying",
+  "version": "1.4.2",
+  "build": "pyhe01879c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "retrying-1.4.2-pyhe01879c_0.conda",
+  "md5": "128b46a47ea164f9a8659cb6da2f3555",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/retrying-1.4.2-pyhe01879c_0.conda",
+  "sha256": "7a10527962d2ca2cf936872ef58d4b622b1d1d1703e1d6396d0673fd9f883c7f",
+  "depends": [
+    "python >=3.9",
+    "python"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "Apache-2.0",
+  "package_type": "noarch_python",
+  "timestamp": 1754219562310,
+  "size": 20907,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\retrying-1.4.2-pyhe01879c_0",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\retrying-1.4.2-pyhe01879c_0",
+  "files": [
+    "Lib/site-packages/retrying-1.4.2.dist-info/INSTALLER",
+    "Lib/site-packages/retrying-1.4.2.dist-info/METADATA",
+    "Lib/site-packages/retrying-1.4.2.dist-info/RECORD",
+    "Lib/site-packages/retrying-1.4.2.dist-info/REQUESTED",
+    "Lib/site-packages/retrying-1.4.2.dist-info/WHEEL",
+    "Lib/site-packages/retrying-1.4.2.dist-info/direct_url.json",
+    "Lib/site-packages/retrying-1.4.2.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/retrying-1.4.2.dist-info/licenses/NOTICE.txt",
+    "Lib/site-packages/retrying-1.4.2.dist-info/top_level.txt",
+    "Lib/site-packages/retrying.py",
+    "Lib/site-packages/__pycache__/retrying.cpython-314.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3818733f785dc97c92d784c2fe373d35fdab817fafb6b8a44ec49ff32d65b44b",
+        "size_in_bytes": 5475,
+        "sha256_in_prefix": "3818733f785dc97c92d784c2fe373d35fdab817fafb6b8a44ec49ff32d65b44b"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "30fcd804b112d90b65d74d5465e650ca3117c49f05d8a36a11c1aeff19d3738b",
+        "size_in_bytes": 894,
+        "sha256_in_prefix": "30fcd804b112d90b65d74d5465e650ca3117c49f05d8a36a11c1aeff19d3738b"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "42634679763260b144056616e1ca852ea980bcbfc4a117012daa3167063a7d70",
+        "size_in_bytes": 119,
+        "sha256_in_prefix": "42634679763260b144056616e1ca852ea980bcbfc4a117012daa3167063a7d70"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size_in_bytes": 11357,
+        "sha256_in_prefix": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/licenses/NOTICE.txt",
+        "path_type": "hardlink",
+        "sha256": "4d722127c6beefc17e7a86bebeb74f91dfa877778bda8d7f8e88bc23694a508b",
+        "size_in_bytes": 105,
+        "sha256_in_prefix": "4d722127c6beefc17e7a86bebeb74f91dfa877778bda8d7f8e88bc23694a508b"
+      },
+      {
+        "_path": "site-packages/retrying-1.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "02aff4b5431cc46c6b4117b86878be5554a8d8c3f36552ed4f4a40c4d2d4b3f1",
+        "size_in_bytes": 9,
+        "sha256_in_prefix": "02aff4b5431cc46c6b4117b86878be5554a8d8c3f36552ed4f4a40c4d2d4b3f1"
+      },
+      {
+        "_path": "site-packages/retrying.py",
+        "path_type": "hardlink",
+        "sha256": "392f8177273e88b510abb63f7b42695c9e7c0cc72adaa97ba14a4376607112d8",
+        "size_in_bytes": 12267,
+        "sha256_in_prefix": "392f8177273e88b510abb63f7b42695c9e7c0cc72adaa97ba14a4376607112d8"
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/retrying.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 14019
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\retrying-1.4.2-pyhe01879c_0",
+    "type": 1
+  }
+}

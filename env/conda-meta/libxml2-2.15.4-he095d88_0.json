@@ -1,0 +1,56 @@
+{
+  "name": "libxml2",
+  "version": "2.15.4",
+  "build": "he095d88_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libxml2-2.15.4-he095d88_0.conda",
+  "md5": "3ce54d0f8f24dfab99d82414411640aa",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libxml2-2.15.4-he095d88_0.conda",
+  "sha256": "a19bb3821830f6b1281e782844d5dd265f796dfed2e4812b16c9995a8c778c88",
+  "depends": [
+    "icu >=78.3,<79.0a0",
+    "libiconv >=1.18,<2.0a0",
+    "liblzma >=5.8.3,<6.0a0",
+    "libxml2-16 2.15.4 h3cfd58e_0",
+    "libzlib >=1.3.2,<2.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1788635276599,
+  "size": 43845,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libxml2-2.15.4-he095d88_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libxml2-2.15.4-he095d88_0",
+  "files": [
+    "Library/bin/xmlcatalog.exe",
+    "Library/bin/xmllint.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/xmlcatalog.exe",
+        "path_type": "hardlink",
+        "sha256": "8eb46a3e9006511b199a5cc29ae4fe32ede1ae111a834100e518f15ea6c9c86a",
+        "size_in_bytes": 20480,
+        "sha256_in_prefix": "8eb46a3e9006511b199a5cc29ae4fe32ede1ae111a834100e518f15ea6c9c86a"
+      },
+      {
+        "_path": "Library/bin/xmllint.exe",
+        "path_type": "hardlink",
+        "sha256": "8370906188aa8455541a7f0a3ddb3918fbbf9927970361b8200f83122ac073a8",
+        "size_in_bytes": 66560,
+        "sha256_in_prefix": "8370906188aa8455541a7f0a3ddb3918fbbf9927970361b8200f83122ac073a8"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libxml2-2.15.4-he095d88_0",
+    "type": 1
+  }
+}

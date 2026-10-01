@@ -1,0 +1,77 @@
+{
+  "name": "lerc",
+  "version": "4.2.0",
+  "build": "hd936e49_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "lerc-4.2.0-hd936e49_0.conda",
+  "md5": "add59e2b60ac9d4299d17c938185c75a",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/lerc-4.2.0-hd936e49_0.conda",
+  "sha256": "93d666f63f284ef77b87b0b1f77b70f7d36d315a132f9afa64bc0012d937ba39",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1785036247761,
+  "size": 175297,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\lerc-4.2.0-hd936e49_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\lerc-4.2.0-hd936e49_0",
+  "files": [
+    "Library/bin/Lerc.dll",
+    "Library/include/Lerc_c_api.h",
+    "Library/include/Lerc_types.h",
+    "Library/lib/Lerc.lib",
+    "Library/lib/pkgconfig/Lerc.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/Lerc.dll",
+        "path_type": "hardlink",
+        "sha256": "451cd3d0eaede32c199886717ec7484b8ca7effda47ee89febea957540058975",
+        "size_in_bytes": 548864,
+        "sha256_in_prefix": "451cd3d0eaede32c199886717ec7484b8ca7effda47ee89febea957540058975"
+      },
+      {
+        "_path": "Library/include/Lerc_c_api.h",
+        "path_type": "hardlink",
+        "sha256": "25cd1c260a579b1b71161f3ca1a8555fd59a35f0048261333acf88d2b4f2b158",
+        "size_in_bytes": 23324,
+        "sha256_in_prefix": "25cd1c260a579b1b71161f3ca1a8555fd59a35f0048261333acf88d2b4f2b158"
+      },
+      {
+        "_path": "Library/include/Lerc_types.h",
+        "path_type": "hardlink",
+        "sha256": "31ae1425571c2f06ce57fb92e6678596c77e8266bc3e96c92fb3e0b98a6c95e6",
+        "size_in_bytes": 1309,
+        "sha256_in_prefix": "31ae1425571c2f06ce57fb92e6678596c77e8266bc3e96c92fb3e0b98a6c95e6"
+      },
+      {
+        "_path": "Library/lib/Lerc.lib",
+        "path_type": "hardlink",
+        "sha256": "9e5189564a10f6c9d4cf12c56e6fbfa1e87401eda9bb68244188e147480e2b9b",
+        "size_in_bytes": 4158,
+        "sha256_in_prefix": "9e5189564a10f6c9d4cf12c56e6fbfa1e87401eda9bb68244188e147480e2b9b"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/Lerc.pc",
+        "prefix_placeholder": "D:/bld/lerc_1785036116953/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "88d134a25b895c20559ec132f09ef1c1c24776cadbb4ea852eade9b66e1713ca",
+        "size_in_bytes": 347,
+        "sha256_in_prefix": "d984bd5a46957d7be2064b1379c0b70ab3b20f99b01561b1c471e977bf60817d"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\lerc-4.2.0-hd936e49_0",
+    "type": 1
+  }
+}

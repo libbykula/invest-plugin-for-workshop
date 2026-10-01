@@ -1,0 +1,1945 @@
+{
+  "name": "natcap.invest",
+  "version": "3.20.2",
+  "build": "py314h857f46a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "natcap.invest-3.20.2-py314h857f46a_0.conda",
+  "md5": "79b2657e0bce907cc441e74f8c0a927b",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/natcap.invest-3.20.2-py314h857f46a_0.conda",
+  "sha256": "2abcbb15ad23f5562e1e91cfe191fd01d6f7657e0fad5dcdd0a51a405c854bdf",
+  "depends": [
+    "altair >=6.0.0",
+    "babel",
+    "chardet >=3.0.4",
+    "cython >3.0.0",
+    "distinctipy",
+    "docutils",
+    "fiona",
+    "flask",
+    "flask-cors",
+    "gdal >=3.4.2",
+    "geometamaker >=0.3.1",
+    "geopandas-base",
+    "jinja2",
+    "libgdal-core 3.12.*",
+    "libgdal-core >=3.12.4,<3.13.0a0",
+    "libsqlite !=3.49.1",
+    "matplotlib-base",
+    "numpy >=1.11.0,!=1.16.0",
+    "numpy >=1.25,<3",
+    "pandas >=1.2.1",
+    "pint",
+    "psutil >=5.6.6",
+    "pyro5",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "requests",
+    "rtree >=0.8.2,!=0.9.1",
+    "scipy >=1.9.0",
+    "shapely >=2.0.0",
+    "sqlite !=3.49.1",
+    "taskgraph >=0.11.0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1788439459904,
+  "size": 1515546,
+  "requested_spec": "natcap.invest",
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\natcap.invest-3.20.2-py314h857f46a_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\natcap.invest-3.20.2-py314h857f46a_0",
+  "files": [
+    "Lib/site-packages/natcap/__init__.pxd",
+    "Lib/site-packages/natcap/invest/__init__.py",
+    "Lib/site-packages/natcap/invest/__main__.py",
+    "Lib/site-packages/natcap/invest/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/__main__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/cli.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/datastack.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/file_registry.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/models.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/rst_generator.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/spec.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/ui_server.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/unit_registry.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/usage.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/utils.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/validation.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/__pycache__/validation_messages.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/annual_water_yield/__init__.py",
+    "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/annual_water_yield.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/annual_water_yield/annual_water_yield.py",
+    "Lib/site-packages/natcap/invest/annual_water_yield/reporter.py",
+    "Lib/site-packages/natcap/invest/carbon/__init__.py",
+    "Lib/site-packages/natcap/invest/carbon/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/carbon/__pycache__/carbon.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/carbon/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/carbon/carbon.py",
+    "Lib/site-packages/natcap/invest/carbon/reporter.py",
+    "Lib/site-packages/natcap/invest/cli.py",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/__init__.py",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/coastal_blue_carbon.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/preprocessor.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/coastal_blue_carbon.py",
+    "Lib/site-packages/natcap/invest/coastal_blue_carbon/preprocessor.py",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/__init__.py",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/coastal_vulnerability.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/coastal_vulnerability.py",
+    "Lib/site-packages/natcap/invest/coastal_vulnerability/reporter.py",
+    "Lib/site-packages/natcap/invest/crop_production_percentile/__init__.py",
+    "Lib/site-packages/natcap/invest/crop_production_percentile/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/crop_production_percentile/__pycache__/crop_production_percentile.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/crop_production_percentile/crop_production_percentile.py",
+    "Lib/site-packages/natcap/invest/crop_production_regression/__init__.py",
+    "Lib/site-packages/natcap/invest/crop_production_regression/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/crop_production_regression/__pycache__/crop_production_regression.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/crop_production_regression/crop_production_regression.py",
+    "Lib/site-packages/natcap/invest/datastack.py",
+    "Lib/site-packages/natcap/invest/delineateit/__init__.py",
+    "Lib/site-packages/natcap/invest/delineateit/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/delineateit/__pycache__/delineateit.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/delineateit/delineateit.py",
+    "Lib/site-packages/natcap/invest/delineateit/delineateit_core.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/delineateit/delineateit_core.cpp",
+    "Lib/site-packages/natcap/invest/delineateit/delineateit_core.pyx",
+    "Lib/site-packages/natcap/invest/file_registry.py",
+    "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__init__.py",
+    "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__pycache__/forest_carbon_edge_effect.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/forest_carbon_edge_effect.py",
+    "Lib/site-packages/natcap/invest/habitat_quality/__init__.py",
+    "Lib/site-packages/natcap/invest/habitat_quality/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/habitat_quality/__pycache__/habitat_quality.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/habitat_quality/habitat_quality.py",
+    "Lib/site-packages/natcap/invest/hra/__init__.py",
+    "Lib/site-packages/natcap/invest/hra/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/hra/__pycache__/hra.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/hra/hra.py",
+    "Lib/site-packages/natcap/invest/internationalization/README.md",
+    "Lib/site-packages/natcap/invest/internationalization/locales/es/LC_MESSAGES/messages.mo",
+    "Lib/site-packages/natcap/invest/internationalization/locales/es/LC_MESSAGES/messages.po",
+    "Lib/site-packages/natcap/invest/internationalization/locales/zh/LC_MESSAGES/messages.mo",
+    "Lib/site-packages/natcap/invest/internationalization/locales/zh/LC_MESSAGES/messages.po",
+    "Lib/site-packages/natcap/invest/internationalization/messages.pot",
+    "Lib/site-packages/natcap/invest/models.py",
+    "Lib/site-packages/natcap/invest/ndr/__init__.py",
+    "Lib/site-packages/natcap/invest/ndr/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/ndr/__pycache__/ndr.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/ndr/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/ndr/ndr.py",
+    "Lib/site-packages/natcap/invest/ndr/ndr_core.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/ndr/ndr_core.cpp",
+    "Lib/site-packages/natcap/invest/ndr/ndr_core.pyx",
+    "Lib/site-packages/natcap/invest/ndr/reporter.py",
+    "Lib/site-packages/natcap/invest/ndr/retention.h",
+    "Lib/site-packages/natcap/invest/ndr/retention.pxd",
+    "Lib/site-packages/natcap/invest/pollination/__init__.py",
+    "Lib/site-packages/natcap/invest/pollination/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/pollination/__pycache__/pollination.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/pollination/pollination.py",
+    "Lib/site-packages/natcap/invest/recreation/__init__.py",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/_utils.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/buffered_numpy_disk_map.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_client.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_server.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_workspace_fetcher.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/recreation/_utils.py",
+    "Lib/site-packages/natcap/invest/recreation/buffered_numpy_disk_map.py",
+    "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.cpp",
+    "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.pyx",
+    "Lib/site-packages/natcap/invest/recreation/recmodel_client.py",
+    "Lib/site-packages/natcap/invest/recreation/recmodel_server.py",
+    "Lib/site-packages/natcap/invest/recreation/recmodel_workspace_fetcher.py",
+    "Lib/site-packages/natcap/invest/reports/__init__.py",
+    "Lib/site-packages/natcap/invest/reports/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/reports/__pycache__/raster_utils.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/reports/__pycache__/report_constants.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/reports/__pycache__/sdr_ndr_report_generator.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/reports/__pycache__/vector_utils.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/reports/raster_utils.py",
+    "Lib/site-packages/natcap/invest/reports/report_constants.py",
+    "Lib/site-packages/natcap/invest/reports/sdr_ndr_report_generator.py",
+    "Lib/site-packages/natcap/invest/reports/templates/accordion-js.html",
+    "Lib/site-packages/natcap/invest/reports/templates/accordion-section.html",
+    "Lib/site-packages/natcap/invest/reports/templates/args-table.html",
+    "Lib/site-packages/natcap/invest/reports/templates/base.html",
+    "Lib/site-packages/natcap/invest/reports/templates/caption.html",
+    "Lib/site-packages/natcap/invest/reports/templates/content-grid.html",
+    "Lib/site-packages/natcap/invest/reports/templates/datatable-js.html",
+    "Lib/site-packages/natcap/invest/reports/templates/datatable-styles.html",
+    "Lib/site-packages/natcap/invest/reports/templates/globals.html",
+    "Lib/site-packages/natcap/invest/reports/templates/metadata.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/annual_water_yield.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/carbon.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/coastal_vulnerability.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/sdr-ndr-report.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/seasonal_water_yield.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/urban_cooling.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/urban_mental_health.html",
+    "Lib/site-packages/natcap/invest/reports/templates/models/urban_nature_access.html",
+    "Lib/site-packages/natcap/invest/reports/templates/raster-plot-img.html",
+    "Lib/site-packages/natcap/invest/reports/templates/styles.html",
+    "Lib/site-packages/natcap/invest/reports/templates/userguide-link.html",
+    "Lib/site-packages/natcap/invest/reports/templates/vega-dependencies.html",
+    "Lib/site-packages/natcap/invest/reports/templates/vega-embed-js.html",
+    "Lib/site-packages/natcap/invest/reports/templates/vegalite-plot.html",
+    "Lib/site-packages/natcap/invest/reports/templates/wide-table.html",
+    "Lib/site-packages/natcap/invest/reports/vector_utils.py",
+    "Lib/site-packages/natcap/invest/routedem/__init__.py",
+    "Lib/site-packages/natcap/invest/routedem/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/routedem/__pycache__/routedem.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/routedem/routedem.py",
+    "Lib/site-packages/natcap/invest/rst_generator.py",
+    "Lib/site-packages/natcap/invest/scenario_gen_proximity/__init__.py",
+    "Lib/site-packages/natcap/invest/scenario_gen_proximity/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/scenario_gen_proximity/__pycache__/scenario_gen_proximity.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/scenario_gen_proximity/scenario_gen_proximity.py",
+    "Lib/site-packages/natcap/invest/scenic_quality/__init__.py",
+    "Lib/site-packages/natcap/invest/scenic_quality/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/scenic_quality/__pycache__/scenic_quality.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/scenic_quality/scenic_quality.py",
+    "Lib/site-packages/natcap/invest/scenic_quality/viewshed.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/scenic_quality/viewshed.cpp",
+    "Lib/site-packages/natcap/invest/scenic_quality/viewshed.pyx",
+    "Lib/site-packages/natcap/invest/sdr/__init__.py",
+    "Lib/site-packages/natcap/invest/sdr/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/sdr/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/sdr/__pycache__/sdr.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/sdr/reporter.py",
+    "Lib/site-packages/natcap/invest/sdr/sdr.py",
+    "Lib/site-packages/natcap/invest/sdr/sdr_core.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/sdr/sdr_core.cpp",
+    "Lib/site-packages/natcap/invest/sdr/sdr_core.pyx",
+    "Lib/site-packages/natcap/invest/sdr/sediment_deposition.h",
+    "Lib/site-packages/natcap/invest/sdr/sediment_deposition.pxd",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/__init__.py",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/seasonal_water_yield.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/reporter.py",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield.py",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.cp314-win_amd64.pyd",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.cpp",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.pyx",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/swy.h",
+    "Lib/site-packages/natcap/invest/seasonal_water_yield/swy.pxd",
+    "Lib/site-packages/natcap/invest/spec.py",
+    "Lib/site-packages/natcap/invest/stormwater/__init__.py",
+    "Lib/site-packages/natcap/invest/stormwater/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/stormwater/__pycache__/stormwater.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/stormwater/stormwater.py",
+    "Lib/site-packages/natcap/invest/ui_server.py",
+    "Lib/site-packages/natcap/invest/unit_definitions.txt",
+    "Lib/site-packages/natcap/invest/unit_registry.py",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/__init__.py",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/urban_cooling_model.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/reporter.py",
+    "Lib/site-packages/natcap/invest/urban_cooling_model/urban_cooling_model.py",
+    "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__init__.py",
+    "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__pycache__/urban_flood_risk_mitigation.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/urban_flood_risk_mitigation.py",
+    "Lib/site-packages/natcap/invest/urban_mental_health/__init__.py",
+    "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/urban_mental_health.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_mental_health/reporter.py",
+    "Lib/site-packages/natcap/invest/urban_mental_health/urban_mental_health.py",
+    "Lib/site-packages/natcap/invest/urban_nature_access/__init__.py",
+    "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/reporter.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/urban_nature_access.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/urban_nature_access/reporter.py",
+    "Lib/site-packages/natcap/invest/urban_nature_access/urban_nature_access.py",
+    "Lib/site-packages/natcap/invest/usage.py",
+    "Lib/site-packages/natcap/invest/utils.py",
+    "Lib/site-packages/natcap/invest/validation.py",
+    "Lib/site-packages/natcap/invest/validation_messages.py",
+    "Lib/site-packages/natcap/invest/wave_energy/__init__.py",
+    "Lib/site-packages/natcap/invest/wave_energy/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/wave_energy/__pycache__/wave_energy.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/wave_energy/wave_energy.py",
+    "Lib/site-packages/natcap/invest/wind_energy/__init__.py",
+    "Lib/site-packages/natcap/invest/wind_energy/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/wind_energy/__pycache__/wind_energy.cpython-314.pyc",
+    "Lib/site-packages/natcap/invest/wind_energy/wind_energy.py",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/INSTALLER",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/METADATA",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/RECORD",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/REQUESTED",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/WHEEL",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/entry_points.txt",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/natcap_invest-3.20.2.dist-info/top_level.txt",
+    "Scripts/invest-script.py",
+    "Scripts/invest.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/natcap/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab1db1c003e8e73d90a671157820af5b79da87f004e4f4adbce1461ee85c5007",
+        "size_in_bytes": 4259,
+        "sha256_in_prefix": "ab1db1c003e8e73d90a671157820af5b79da87f004e4f4adbce1461ee85c5007"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "feafe3994a0ebe53de1ce0dbf7dedabd99d1516bf7293a7c5f16c0d2b394b09b",
+        "size_in_bytes": 285,
+        "sha256_in_prefix": "feafe3994a0ebe53de1ce0dbf7dedabd99d1516bf7293a7c5f16c0d2b394b09b"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b279ad21417663cbad800b14e88939cf5af90705efe562d8db4bdf038b06d341",
+        "size_in_bytes": 4653,
+        "sha256_in_prefix": "b279ad21417663cbad800b14e88939cf5af90705efe562d8db4bdf038b06d341"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/__main__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1abb92038e33c534bc606f6e0097fcfcad718eb2b8e32f0929906c4aae35c16f",
+        "size_in_bytes": 450,
+        "sha256_in_prefix": "1abb92038e33c534bc606f6e0097fcfcad718eb2b8e32f0929906c4aae35c16f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/cli.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "bec362368298ae01a5dabc156a825ebf3fafbf0133b1f59479e7cb8e133deaa0",
+        "size_in_bytes": 23469,
+        "sha256_in_prefix": "bec362368298ae01a5dabc156a825ebf3fafbf0133b1f59479e7cb8e133deaa0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/datastack.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc80ca8dcbd7e2816b2fc1e1badc9907069bcc6d15011a9817040b685bc05c30",
+        "size_in_bytes": 22806,
+        "sha256_in_prefix": "fc80ca8dcbd7e2816b2fc1e1badc9907069bcc6d15011a9817040b685bc05c30"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/file_registry.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4ed51a7b7e2906826accfd4ac1cb4a9b3249643875e88c97d3993a5075d52f2",
+        "size_in_bytes": 6819,
+        "sha256_in_prefix": "b4ed51a7b7e2906826accfd4ac1cb4a9b3249643875e88c97d3993a5075d52f2"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/models.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "758dcb88a619331362a75a49b7f90aadddeee22ac338e4e03533a8614e75a216",
+        "size_in_bytes": 2631,
+        "sha256_in_prefix": "758dcb88a619331362a75a49b7f90aadddeee22ac338e4e03533a8614e75a216"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/rst_generator.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "14bdf4ea96918ade24f321c04c59c3bb0035404dfea3bcd458ff396233ec03a9",
+        "size_in_bytes": 7848,
+        "sha256_in_prefix": "14bdf4ea96918ade24f321c04c59c3bb0035404dfea3bcd458ff396233ec03a9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/spec.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f56b9aa0dee1f2480d3035f65e78390d01c5dd82a093df11a3444268aefc4b8",
+        "size_in_bytes": 130426,
+        "sha256_in_prefix": "5f56b9aa0dee1f2480d3035f65e78390d01c5dd82a093df11a3444268aefc4b8"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/ui_server.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "36371eadcc6766de75a8cf10276a02a54078d48ef9c8199fcaba2be184f34c4d",
+        "size_in_bytes": 14231,
+        "sha256_in_prefix": "36371eadcc6766de75a8cf10276a02a54078d48ef9c8199fcaba2be184f34c4d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/unit_registry.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "cde13068fb6c8c82124a945c2a87ade48c4e473f88ec077c8e34886a9f153174",
+        "size_in_bytes": 610,
+        "sha256_in_prefix": "cde13068fb6c8c82124a945c2a87ade48c4e473f88ec077c8e34886a9f153174"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/usage.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8097db0c76248665358df3d5e77077f0da401f091c9d87b699f2a8d11d1e8e0d",
+        "size_in_bytes": 6758,
+        "sha256_in_prefix": "8097db0c76248665358df3d5e77077f0da401f091c9d87b699f2a8d11d1e8e0d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "5873158f9378fc4146ca494e10c4ccdecaf2aa844bfdc9f3976b7866a296774d",
+        "size_in_bytes": 42755,
+        "sha256_in_prefix": "5873158f9378fc4146ca494e10c4ccdecaf2aa844bfdc9f3976b7866a296774d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/validation.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1734459cb0c9824ce055cb02c242db1d2b18f65da695ce0db1ae84b968fd0bdd",
+        "size_in_bytes": 15881,
+        "sha256_in_prefix": "1734459cb0c9824ce055cb02c242db1d2b18f65da695ce0db1ae84b968fd0bdd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/__pycache__/validation_messages.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "49280f17d20ba95770479aa5c8beee10e104d6977d576c652c2c64a1d47bef04",
+        "size_in_bytes": 2721,
+        "sha256_in_prefix": "49280f17d20ba95770479aa5c8beee10e104d6977d576c652c2c64a1d47bef04"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a2b17522b3b10082659234dae7ec64638f536d3bc5a47c5a88e16a16c1de0b1b",
+        "size_in_bytes": 124,
+        "sha256_in_prefix": "a2b17522b3b10082659234dae7ec64638f536d3bc5a47c5a88e16a16c1de0b1b"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bd509fc0bdce6c5df9fcf51a1b455c9b2db99594d97d156be8028a14f4b5377",
+        "size_in_bytes": 280,
+        "sha256_in_prefix": "8bd509fc0bdce6c5df9fcf51a1b455c9b2db99594d97d156be8028a14f4b5377"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/annual_water_yield.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "643052fd6371f6269701a623d28867e4390cccbe091cce60f43311233b7fce4c",
+        "size_in_bytes": 48953,
+        "sha256_in_prefix": "643052fd6371f6269701a623d28867e4390cccbe091cce60f43311233b7fce4c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "24a07c2aaba88426a196b113fae28d79137adebd1e26600179618f8657428337",
+        "size_in_bytes": 10669,
+        "sha256_in_prefix": "24a07c2aaba88426a196b113fae28d79137adebd1e26600179618f8657428337"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/annual_water_yield.py",
+        "path_type": "hardlink",
+        "sha256": "f16c25445480d8eb432392d783127af194631821bbe9280270af29394480f843",
+        "size_in_bytes": 57066,
+        "sha256_in_prefix": "f16c25445480d8eb432392d783127af194631821bbe9280270af29394480f843"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/annual_water_yield/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "6974064b7a0dfd76fd44f385719c86c5aeb40d3f4b2d56e5638126c34a26c385",
+        "size_in_bytes": 10052,
+        "sha256_in_prefix": "6974064b7a0dfd76fd44f385719c86c5aeb40d3f4b2d56e5638126c34a26c385"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8976baa58f5f0f7193ec905a627f691c5a08056568d4b03b663a4b2cc787f177",
+        "size_in_bytes": 88,
+        "sha256_in_prefix": "8976baa58f5f0f7193ec905a627f691c5a08056568d4b03b663a4b2cc787f177"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "04f967a54056fe95f07c02305aa3f503196bb978df7efc32db46ed7b5d253c97",
+        "size_in_bytes": 256,
+        "sha256_in_prefix": "04f967a54056fe95f07c02305aa3f503196bb978df7efc32db46ed7b5d253c97"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/__pycache__/carbon.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e934f7175b3b416b848652ebac6ae4ebcfb24019a525023708f8755a2bcf09b3",
+        "size_in_bytes": 26636,
+        "sha256_in_prefix": "e934f7175b3b416b848652ebac6ae4ebcfb24019a525023708f8755a2bcf09b3"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d18cb28dece5a4b8aaddfaa3d987cb818fc944178130206b2809f92c311dedd",
+        "size_in_bytes": 8394,
+        "sha256_in_prefix": "1d18cb28dece5a4b8aaddfaa3d987cb818fc944178130206b2809f92c311dedd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/carbon.py",
+        "path_type": "hardlink",
+        "sha256": "92f8fbe5fc7a1cfcefeffd1feddf3a91a5c4d62dec02df801bef5d25b7dbeca8",
+        "size_in_bytes": 29546,
+        "sha256_in_prefix": "92f8fbe5fc7a1cfcefeffd1feddf3a91a5c4d62dec02df801bef5d25b7dbeca8"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/carbon/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "e33627ab8f06a10e69e0931228e3236698d67aa5588838b490996f06db187850",
+        "size_in_bytes": 7195,
+        "sha256_in_prefix": "e33627ab8f06a10e69e0931228e3236698d67aa5588838b490996f06db187850"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/cli.py",
+        "path_type": "hardlink",
+        "sha256": "426856c8626c71bedefda08ba7eef068ea13cffdbad56a0439418f31655fd975",
+        "size_in_bytes": 20998,
+        "sha256_in_prefix": "426856c8626c71bedefda08ba7eef068ea13cffdbad56a0439418f31655fd975"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "20a30bcabfe486a91b78abe8dfa4bcf1c0fff743ac7af9878eb751164a8c8158",
+        "size_in_bytes": 162,
+        "sha256_in_prefix": "20a30bcabfe486a91b78abe8dfa4bcf1c0fff743ac7af9878eb751164a8c8158"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "54613740683964b175edc8be171b57f4082ae6108d4660ebcc2b9c948e30ffb5",
+        "size_in_bytes": 323,
+        "sha256_in_prefix": "54613740683964b175edc8be171b57f4082ae6108d4660ebcc2b9c948e30ffb5"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/coastal_blue_carbon.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "14da0655552ca19e4dbbd49d72a3eec521b62ef4458033458488c8dbbbca435e",
+        "size_in_bytes": 77641,
+        "sha256_in_prefix": "14da0655552ca19e4dbbd49d72a3eec521b62ef4458033458488c8dbbbca435e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/__pycache__/preprocessor.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e291ab99e659082c3935e4ba79325dde65ace15920800604057c22bac0ec021",
+        "size_in_bytes": 19692,
+        "sha256_in_prefix": "7e291ab99e659082c3935e4ba79325dde65ace15920800604057c22bac0ec021"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/coastal_blue_carbon.py",
+        "path_type": "hardlink",
+        "sha256": "a905f5d2595bf905dacaa8cf0923f826162bc4356ce6363fb6eda32123a7bd14",
+        "size_in_bytes": 97186,
+        "sha256_in_prefix": "a905f5d2595bf905dacaa8cf0923f826162bc4356ce6363fb6eda32123a7bd14"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_blue_carbon/preprocessor.py",
+        "path_type": "hardlink",
+        "sha256": "7a39b2ec2cf8eab552dd4207f141e993988489bfb4433ac0ea2e81f8ed5f2608",
+        "size_in_bytes": 21320,
+        "sha256_in_prefix": "7a39b2ec2cf8eab552dd4207f141e993988489bfb4433ac0ea2e81f8ed5f2608"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4d6072aa34737726ba611b2010190bd07cc1ea332584e25a38f8d6d62ac2dabb",
+        "size_in_bytes": 133,
+        "sha256_in_prefix": "4d6072aa34737726ba611b2010190bd07cc1ea332584e25a38f8d6d62ac2dabb"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6495d50b5bbc17fdbd142599a74a9a4fbf95a82c235b7dd6a8a3ee99cb96449e",
+        "size_in_bytes": 286,
+        "sha256_in_prefix": "6495d50b5bbc17fdbd142599a74a9a4fbf95a82c235b7dd6a8a3ee99cb96449e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/coastal_vulnerability.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "747b0c4e2b547f36091aa263e1df65b59157d230c24efbb24b05da9e6a78280f",
+        "size_in_bytes": 147522,
+        "sha256_in_prefix": "747b0c4e2b547f36091aa263e1df65b59157d230c24efbb24b05da9e6a78280f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "98a761fd84cff0a924dae806fc4efea174632f3a2fd2b89cf0cdfdaea4a29858",
+        "size_in_bytes": 18593,
+        "sha256_in_prefix": "98a761fd84cff0a924dae806fc4efea174632f3a2fd2b89cf0cdfdaea4a29858"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/coastal_vulnerability.py",
+        "path_type": "hardlink",
+        "sha256": "17aceb95decd08216ab8877c746c2e0918e4a844107655c58993df8accaccab7",
+        "size_in_bytes": 156759,
+        "sha256_in_prefix": "17aceb95decd08216ab8877c746c2e0918e4a844107655c58993df8accaccab7"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/coastal_vulnerability/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "b34ba6648e80ee4b00a3196f7d2714980673b5a36ccbb0f20545b28dde637bed",
+        "size_in_bytes": 15287,
+        "sha256_in_prefix": "b34ba6648e80ee4b00a3196f7d2714980673b5a36ccbb0f20545b28dde637bed"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_percentile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "387bb7c3e7a8706cb7e9dca5a872828bfa2e8ab133f4c9a1c2813113b764dc26",
+        "size_in_bytes": 148,
+        "sha256_in_prefix": "387bb7c3e7a8706cb7e9dca5a872828bfa2e8ab133f4c9a1c2813113b764dc26"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_percentile/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f45a1e3298a2a2134865a1f055b7bf8704d03455188f7ca86424e1520f60ac6",
+        "size_in_bytes": 296,
+        "sha256_in_prefix": "5f45a1e3298a2a2134865a1f055b7bf8704d03455188f7ca86424e1520f60ac6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_percentile/__pycache__/crop_production_percentile.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "beac78ca278a940b374a23bffdc2a095a34d2a46e97243531a32ee120ad7f6c6",
+        "size_in_bytes": 57940,
+        "sha256_in_prefix": "beac78ca278a940b374a23bffdc2a095a34d2a46e97243531a32ee120ad7f6c6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_percentile/crop_production_percentile.py",
+        "path_type": "hardlink",
+        "sha256": "c803cd8f4619174331a7f34b6661cdfa34db0fa8bfa235316f79758375b54210",
+        "size_in_bytes": 57546,
+        "sha256_in_prefix": "c803cd8f4619174331a7f34b6661cdfa34db0fa8bfa235316f79758375b54210"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_regression/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dbd052dc7f2a24b8ccf03d64482aee05c5bb43bd19527b15911ac168ded2a7ce",
+        "size_in_bytes": 148,
+        "sha256_in_prefix": "dbd052dc7f2a24b8ccf03d64482aee05c5bb43bd19527b15911ac168ded2a7ce"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_regression/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "42991bee8ad2045a3599f6cd589a756afcd41cf72f9e7374de242e1761bd7544",
+        "size_in_bytes": 296,
+        "sha256_in_prefix": "42991bee8ad2045a3599f6cd589a756afcd41cf72f9e7374de242e1761bd7544"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_regression/__pycache__/crop_production_regression.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "a61566bf67861061d5e19c29bc962d1ef6748477d1b44ab0ff8da4bee9984a86",
+        "size_in_bytes": 50624,
+        "sha256_in_prefix": "a61566bf67861061d5e19c29bc962d1ef6748477d1b44ab0ff8da4bee9984a86"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/crop_production_regression/crop_production_regression.py",
+        "path_type": "hardlink",
+        "sha256": "41bd647eb0c6f7037e5d727dcb5fed2cbc2cfbc254e4d9570f30fe5abbfb6cb3",
+        "size_in_bytes": 53511,
+        "sha256_in_prefix": "41bd647eb0c6f7037e5d727dcb5fed2cbc2cfbc254e4d9570f30fe5abbfb6cb3"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/datastack.py",
+        "path_type": "hardlink",
+        "sha256": "06d8cf7b14c7e07290f30b33348a6126ebb0c9a56823d78abbe579af28c4b314",
+        "size_in_bytes": 19054,
+        "sha256_in_prefix": "06d8cf7b14c7e07290f30b33348a6126ebb0c9a56823d78abbe579af28c4b314"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7ae5875fec731cf872f727c9b91e13834d361045834fd1f00d8b61567adbae1f",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "7ae5875fec731cf872f727c9b91e13834d361045834fd1f00d8b61567adbae1f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e527af04167b17466d118488e8df182ca030a4d03241261965c6acc60db728e",
+        "size_in_bytes": 266,
+        "sha256_in_prefix": "2e527af04167b17466d118488e8df182ca030a4d03241261965c6acc60db728e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/__pycache__/delineateit.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "82582cb582c9c1906635d97c903de4ebbc8e2d8a9e49b105f17d5566ac3b8193",
+        "size_in_bytes": 34750,
+        "sha256_in_prefix": "82582cb582c9c1906635d97c903de4ebbc8e2d8a9e49b105f17d5566ac3b8193"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/delineateit.py",
+        "path_type": "hardlink",
+        "sha256": "abdfb7630143ae3d4f01956ae0b1cb21e4f26798285b7ebd0030256cb9d7e295",
+        "size_in_bytes": 34567,
+        "sha256_in_prefix": "abdfb7630143ae3d4f01956ae0b1cb21e4f26798285b7ebd0030256cb9d7e295"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/delineateit_core.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "582feb14daf43309326310a8caf357e052d4e5cffc87b714c0963773f6d8ee6d",
+        "size_in_bytes": 157696,
+        "sha256_in_prefix": "582feb14daf43309326310a8caf357e052d4e5cffc87b714c0963773f6d8ee6d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/delineateit_core.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "7f1dcccae82ac461cd20344f8a886c0749f29a005ae28c21f17f9440ac438615",
+        "size_in_bytes": 1286951,
+        "sha256_in_prefix": "b5546dbff7a6533c212bea8e81e23e8289344b587edad61796399cedc2e6d008"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/delineateit/delineateit_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "0ea2d59d862d9997ca2beb52963e397ccaacf196d5075cca40b1a111f716b248",
+        "size_in_bytes": 4747,
+        "sha256_in_prefix": "0ea2d59d862d9997ca2beb52963e397ccaacf196d5075cca40b1a111f716b248"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/file_registry.py",
+        "path_type": "hardlink",
+        "sha256": "88e9162dcd40d97336c1fef62bc47dc5ae289f21c81eab1169508feed985f1c9",
+        "size_in_bytes": 6324,
+        "sha256_in_prefix": "88e9162dcd40d97336c1fef62bc47dc5ae289f21c81eab1169508feed985f1c9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19b3aa20c45949cf60257393e290537965aef5b4ef8982204f2693fe45d608f9",
+        "size_in_bytes": 145,
+        "sha256_in_prefix": "19b3aa20c45949cf60257393e290537965aef5b4ef8982204f2693fe45d608f9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "c64d99670c13e5c1d6a91cc2cb8797da606eacf9c7cda5b84b81d0ac188d67ea",
+        "size_in_bytes": 294,
+        "sha256_in_prefix": "c64d99670c13e5c1d6a91cc2cb8797da606eacf9c7cda5b84b81d0ac188d67ea"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/__pycache__/forest_carbon_edge_effect.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "05e8ba20680e70d23d5981a07f3b4af45a48a24242aa6e14b8968e81af77f144",
+        "size_in_bytes": 45945,
+        "sha256_in_prefix": "05e8ba20680e70d23d5981a07f3b4af45a48a24242aa6e14b8968e81af77f144"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/forest_carbon_edge_effect/forest_carbon_edge_effect.py",
+        "path_type": "hardlink",
+        "sha256": "c3ccaa090e842725cd49ca94d58f058f65c53cccc9335a31c92099c7385655f5",
+        "size_in_bytes": 49509,
+        "sha256_in_prefix": "c3ccaa090e842725cd49ca94d58f058f65c53cccc9335a31c92099c7385655f5"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/habitat_quality/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cbc8c74bf603f111661508b2b7e0c9bcd8c1a08a7f02c93ffdc7c64e8dcc579",
+        "size_in_bytes": 115,
+        "sha256_in_prefix": "8cbc8c74bf603f111661508b2b7e0c9bcd8c1a08a7f02c93ffdc7c64e8dcc579"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/habitat_quality/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2667b9bc85e9066a3a3ac3b232eb9a496c3c704a724f63dd97a1c6184d150fd2",
+        "size_in_bytes": 274,
+        "sha256_in_prefix": "2667b9bc85e9066a3a3ac3b232eb9a496c3c704a724f63dd97a1c6184d150fd2"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/habitat_quality/__pycache__/habitat_quality.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "d270ce90d341b625f283ceee11fd55e93ca21773df53eba2905241dc4b4e42dc",
+        "size_in_bytes": 46434,
+        "sha256_in_prefix": "d270ce90d341b625f283ceee11fd55e93ca21773df53eba2905241dc4b4e42dc"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/habitat_quality/habitat_quality.py",
+        "path_type": "hardlink",
+        "sha256": "bfdb8447027be1033e1b95a056098fe305750fe96526a3ebd22f9bae6fde0fe0",
+        "size_in_bytes": 56917,
+        "sha256_in_prefix": "bfdb8447027be1033e1b95a056098fe305750fe96526a3ebd22f9bae6fde0fe0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/hra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7d7fc8517ec557930b41df4045a35b13a1957853f69f234e3e36e2131ec7678e",
+        "size_in_bytes": 79,
+        "sha256_in_prefix": "7d7fc8517ec557930b41df4045a35b13a1957853f69f234e3e36e2131ec7678e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/hra/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c88f60f56ad313bd21a760bb17c47127a254a65dfa262a34782445be83007c3",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "6c88f60f56ad313bd21a760bb17c47127a254a65dfa262a34782445be83007c3"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/hra/__pycache__/hra.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d57238075b5b5502d4774baf5965989ebda968b1c5949711d6486f600cb759b",
+        "size_in_bytes": 88960,
+        "sha256_in_prefix": "2d57238075b5b5502d4774baf5965989ebda968b1c5949711d6486f600cb759b"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/hra/hra.py",
+        "path_type": "hardlink",
+        "sha256": "5041af4853036a736e324bbf8a3691666f3150e823aba630d23cabe677e38ead",
+        "size_in_bytes": 107658,
+        "sha256_in_prefix": "5041af4853036a736e324bbf8a3691666f3150e823aba630d23cabe677e38ead"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/README.md",
+        "path_type": "hardlink",
+        "sha256": "a0d8c51119ea21681d1988ec80c952242b8a46a9c509dea22350ad48f7218e70",
+        "size_in_bytes": 4870,
+        "sha256_in_prefix": "a0d8c51119ea21681d1988ec80c952242b8a46a9c509dea22350ad48f7218e70"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/locales/es/LC_MESSAGES/messages.mo",
+        "path_type": "hardlink",
+        "sha256": "ee29e73a1ffa6c2e69af892ed338e71158cd1915626e2a6452f72bcca8b44560",
+        "size_in_bytes": 149415,
+        "sha256_in_prefix": "ee29e73a1ffa6c2e69af892ed338e71158cd1915626e2a6452f72bcca8b44560"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/locales/es/LC_MESSAGES/messages.po",
+        "path_type": "hardlink",
+        "sha256": "7bc22e3408671705b00207ea69813cf05440ea62deac9aa91db93b3b4c6a8897",
+        "size_in_bytes": 245632,
+        "sha256_in_prefix": "7bc22e3408671705b00207ea69813cf05440ea62deac9aa91db93b3b4c6a8897"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/locales/zh/LC_MESSAGES/messages.mo",
+        "path_type": "hardlink",
+        "sha256": "1b5b4f4adb6eb66ad88d76f853bf9c5ca1b6ee99901a7886888f7990c7ee0f3a",
+        "size_in_bytes": 148661,
+        "sha256_in_prefix": "1b5b4f4adb6eb66ad88d76f853bf9c5ca1b6ee99901a7886888f7990c7ee0f3a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/locales/zh/LC_MESSAGES/messages.po",
+        "path_type": "hardlink",
+        "sha256": "b54b4d4b0ee80ccf0a0b79a3773ceefb1c7839b5248705ac2d185cf3da4e2001",
+        "size_in_bytes": 209076,
+        "sha256_in_prefix": "b54b4d4b0ee80ccf0a0b79a3773ceefb1c7839b5248705ac2d185cf3da4e2001"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/internationalization/messages.pot",
+        "path_type": "hardlink",
+        "sha256": "01f06bdcfe8326d7af0f8101f736afec10c57604d64b076200459a9d26784b50",
+        "size_in_bytes": 138571,
+        "sha256_in_prefix": "01f06bdcfe8326d7af0f8101f736afec10c57604d64b076200459a9d26784b50"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/models.py",
+        "path_type": "hardlink",
+        "sha256": "602bf9d3efc45decda1f5782369d54caebb51fb9916a6e8cd4ded24be1d85999",
+        "size_in_bytes": 2383,
+        "sha256_in_prefix": "602bf9d3efc45decda1f5782369d54caebb51fb9916a6e8cd4ded24be1d85999"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f9840955caf396328527ee05e80c6453a68841264bd2c6e8d121250122f42e80",
+        "size_in_bytes": 79,
+        "sha256_in_prefix": "f9840955caf396328527ee05e80c6453a68841264bd2c6e8d121250122f42e80"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5cd079f507676311a080a0e40930337b3e227e4391eddb0033000051d28bec0",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "e5cd079f507676311a080a0e40930337b3e227e4391eddb0033000051d28bec0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/__pycache__/ndr.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "76378c8cd77d0afbed19c60b5531aab185609432b186c95b49dbae90468c6f35",
+        "size_in_bytes": 65559,
+        "sha256_in_prefix": "76378c8cd77d0afbed19c60b5531aab185609432b186c95b49dbae90468c6f35"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2bf87c09afaf87d7f12b56690c0b51c4f5838c6b81b23252fe7205f0a70a930",
+        "size_in_bytes": 3798,
+        "sha256_in_prefix": "b2bf87c09afaf87d7f12b56690c0b51c4f5838c6b81b23252fe7205f0a70a930"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/ndr.py",
+        "path_type": "hardlink",
+        "sha256": "5c4353d9548af59d048c0ea14b39545e0f3e813d43371a93127e2f3cbc87508b",
+        "size_in_bytes": 71753,
+        "sha256_in_prefix": "5c4353d9548af59d048c0ea14b39545e0f3e813d43371a93127e2f3cbc87508b"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/ndr_core.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f6a7af4d85b178388e5873628ce3283b7b031fe7a2182a1ca40b3a892c122e27",
+        "size_in_bytes": 104448,
+        "sha256_in_prefix": "f6a7af4d85b178388e5873628ce3283b7b031fe7a2182a1ca40b3a892c122e27"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/ndr_core.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "5d6ea741180512667a04d62e5ab98dfc412b219eb2ed5790b9e6ae27c5c031b9",
+        "size_in_bytes": 612335,
+        "sha256_in_prefix": "f09921325a205ba965510f74b05be339c1ad889e9cd9e3dcbc5dd00b45e53e1e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/ndr_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "1b90425ff156b4325eccaac864741f32c680ff0b0436547f41b52806b99bb2a4",
+        "size_in_bytes": 3750,
+        "sha256_in_prefix": "1b90425ff156b4325eccaac864741f32c680ff0b0436547f41b52806b99bb2a4"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "5752ddd7474f70db45a9d325d0dc32a7c0367ecb2e84d29faaa4b090e5a02a10",
+        "size_in_bytes": 3935,
+        "sha256_in_prefix": "5752ddd7474f70db45a9d325d0dc32a7c0367ecb2e84d29faaa4b090e5a02a10"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/retention.h",
+        "path_type": "hardlink",
+        "sha256": "593f098c2a143016f02928e620a8463ce04a37352358e7472dc91dc58c85fe48",
+        "size_in_bytes": 10485,
+        "sha256_in_prefix": "593f098c2a143016f02928e620a8463ce04a37352358e7472dc91dc58c85fe48"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ndr/retention.pxd",
+        "path_type": "hardlink",
+        "sha256": "3543985c24199f0dd87b33d1ddf051bbaa0feef1ff8ad217c5f81d4b22220387",
+        "size_in_bytes": 164,
+        "sha256_in_prefix": "3543985c24199f0dd87b33d1ddf051bbaa0feef1ff8ad217c5f81d4b22220387"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/pollination/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7378ed6fd5526703837d8cb2a8eed0f449bd8618da3c86979aaa311a13a7e038",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "7378ed6fd5526703837d8cb2a8eed0f449bd8618da3c86979aaa311a13a7e038"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/pollination/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "5189eac1f295c8eca0381a494d89e861ce4fcb2e93184a52455e215ed8703509",
+        "size_in_bytes": 266,
+        "sha256_in_prefix": "5189eac1f295c8eca0381a494d89e861ce4fcb2e93184a52455e215ed8703509"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/pollination/__pycache__/pollination.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b42d9f4f80ae65275b03b6e6c87fefa276bfa7195bc0a530f95089a9eaf1440e",
+        "size_in_bytes": 51823,
+        "sha256_in_prefix": "b42d9f4f80ae65275b03b6e6c87fefa276bfa7195bc0a530f95089a9eaf1440e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/pollination/pollination.py",
+        "path_type": "hardlink",
+        "sha256": "f3a71f4412fed6094079de3beaca2462385df6cbef5713b0aaf97b0928281e78",
+        "size_in_bytes": 62835,
+        "sha256_in_prefix": "f3a71f4412fed6094079de3beaca2462385df6cbef5713b0aaf97b0928281e78"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "edb787e974dd455cc514e8df5e7703b624c73515005bb42c0ad18cc560f3d8dd",
+        "size_in_bytes": 115,
+        "sha256_in_prefix": "edb787e974dd455cc514e8df5e7703b624c73515005bb42c0ad18cc560f3d8dd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c8c8d4686665bf233aa039a9041bfb1f52bd4b06db64f63d7ddc46dac767492",
+        "size_in_bytes": 269,
+        "sha256_in_prefix": "8c8c8d4686665bf233aa039a9041bfb1f52bd4b06db64f63d7ddc46dac767492"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/_utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a0dc0f203dab790bd376c1f3baaa4845050d8cc0b581b982dc55137935dce3a",
+        "size_in_bytes": 1329,
+        "sha256_in_prefix": "6a0dc0f203dab790bd376c1f3baaa4845050d8cc0b581b982dc55137935dce3a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/buffered_numpy_disk_map.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "d96dc0c85490fc5cbd6a3da8ad06ac56b893761494a216549b7a123c01414a12",
+        "size_in_bytes": 12856,
+        "sha256_in_prefix": "d96dc0c85490fc5cbd6a3da8ad06ac56b893761494a216549b7a123c01414a12"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_client.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9adb090bcb4b37f77ce645c77179005ff18a818fcde0c07bdd6776a72cbb411",
+        "size_in_bytes": 87485,
+        "sha256_in_prefix": "d9adb090bcb4b37f77ce645c77179005ff18a818fcde0c07bdd6776a72cbb411"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_server.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b239334b6ce6f7329630ec9b4df17fbebcf120af3a60aeb42ec829e8c064b25c",
+        "size_in_bytes": 57981,
+        "sha256_in_prefix": "b239334b6ce6f7329630ec9b4df17fbebcf120af3a60aeb42ec829e8c064b25c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/__pycache__/recmodel_workspace_fetcher.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "10298665eab4ed32f40e84b30e61b609fc54a238b5af47a631cf5837b0a67541",
+        "size_in_bytes": 2698,
+        "sha256_in_prefix": "10298665eab4ed32f40e84b30e61b609fc54a238b5af47a631cf5837b0a67541"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7a1e1f880d0d5ffe4472965ad5abc76ca4db0775c4e8245249ea15509fda5d32",
+        "size_in_bytes": 784,
+        "sha256_in_prefix": "7a1e1f880d0d5ffe4472965ad5abc76ca4db0775c4e8245249ea15509fda5d32"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/buffered_numpy_disk_map.py",
+        "path_type": "hardlink",
+        "sha256": "21223bd23baf2ede5029c24108ec9639ead6630e09fc4d942bb4c246ca39d10e",
+        "size_in_bytes": 9846,
+        "sha256_in_prefix": "21223bd23baf2ede5029c24108ec9639ead6630e09fc4d942bb4c246ca39d10e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "4c3875d485198476a1d4ac29e5ff16d7701c1ba541ce820cc2c1d1043adb5217",
+        "size_in_bytes": 125440,
+        "sha256_in_prefix": "4c3875d485198476a1d4ac29e5ff16d7701c1ba541ce820cc2c1d1043adb5217"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "e7a27bf2578424b635e2929be5511f813d5cd3db324b0deaff9e8064e6b565cb",
+        "size_in_bytes": 1025859,
+        "sha256_in_prefix": "549207fae49fe9c91af3a3575932d4a9bb8cbdac442c88048367a7730c33c748"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/out_of_core_quadtree.pyx",
+        "path_type": "hardlink",
+        "sha256": "4f98ded13de4e742721755706373fdde47644904bae7661fd51d3dd81997a0c9",
+        "size_in_bytes": 16678,
+        "sha256_in_prefix": "4f98ded13de4e742721755706373fdde47644904bae7661fd51d3dd81997a0c9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/recmodel_client.py",
+        "path_type": "hardlink",
+        "sha256": "97fe04748e88b0b20dae7f194ab3f9e72e18d7ea6430831dec05635f5c8e9412",
+        "size_in_bytes": 82172,
+        "sha256_in_prefix": "97fe04748e88b0b20dae7f194ab3f9e72e18d7ea6430831dec05635f5c8e9412"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/recmodel_server.py",
+        "path_type": "hardlink",
+        "sha256": "c40d5adce024e46a52038540591cbdcd98afdea338d63a8b5588278dced11f56",
+        "size_in_bytes": 52438,
+        "sha256_in_prefix": "c40d5adce024e46a52038540591cbdcd98afdea338d63a8b5588278dced11f56"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/recreation/recmodel_workspace_fetcher.py",
+        "path_type": "hardlink",
+        "sha256": "00b1e32adb35ece3aec747bd477b53309b0f6bc9497da6eb9a395efaa8ecd855",
+        "size_in_bytes": 1846,
+        "sha256_in_prefix": "00b1e32adb35ece3aec747bd477b53309b0f6bc9497da6eb9a395efaa8ecd855"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d56c78fffa9f74408885f2081936a11d98bad2b44e21bc561727d93fa3b9d85",
+        "size_in_bytes": 2339,
+        "sha256_in_prefix": "2d56c78fffa9f74408885f2081936a11d98bad2b44e21bc561727d93fa3b9d85"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6645131157bd8d8da8997277a2ae7819a5976992f8354bf40d81d2b73d6e67ff",
+        "size_in_bytes": 2634,
+        "sha256_in_prefix": "6645131157bd8d8da8997277a2ae7819a5976992f8354bf40d81d2b73d6e67ff"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__pycache__/raster_utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3184f70616ed6f701cb49ab86782f94ff9338d8a59c82f3a227227ca4868cd47",
+        "size_in_bytes": 44971,
+        "sha256_in_prefix": "3184f70616ed6f701cb49ab86782f94ff9338d8a59c82f3a227227ca4868cd47"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__pycache__/report_constants.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "61e737de7e7bd929ae4e89ad3ddcee2cb7d94b4784bc8bfc725497d4c56dba8f",
+        "size_in_bytes": 1053,
+        "sha256_in_prefix": "61e737de7e7bd929ae4e89ad3ddcee2cb7d94b4784bc8bfc725497d4c56dba8f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__pycache__/sdr_ndr_report_generator.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d2c4d1eaa9361e53b0c47df17138895d443dd07266e4e3f80363adfa579cded",
+        "size_in_bytes": 5206,
+        "sha256_in_prefix": "8d2c4d1eaa9361e53b0c47df17138895d443dd07266e4e3f80363adfa579cded"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/__pycache__/vector_utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "32946229756ef9ae4a6ce8270dabbf243e1e480f92b981dc58600efbd334e231",
+        "size_in_bytes": 9214,
+        "sha256_in_prefix": "32946229756ef9ae4a6ce8270dabbf243e1e480f92b981dc58600efbd334e231"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/raster_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a10c6708b7131079aea9802ae8df5f858538fe79e280dba8aa6e6229d48b2e30",
+        "size_in_bytes": 38316,
+        "sha256_in_prefix": "a10c6708b7131079aea9802ae8df5f858538fe79e280dba8aa6e6229d48b2e30"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/report_constants.py",
+        "path_type": "hardlink",
+        "sha256": "0342f13681ab94a1f57a15b7467f2796fa58fd4b3219ab36016d7162f14372c4",
+        "size_in_bytes": 861,
+        "sha256_in_prefix": "0342f13681ab94a1f57a15b7467f2796fa58fd4b3219ab36016d7162f14372c4"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/sdr_ndr_report_generator.py",
+        "path_type": "hardlink",
+        "sha256": "20b8bb6999504b8743699cb39eda04f21e1f9c72da421f28dad373ef531b0058",
+        "size_in_bytes": 5017,
+        "sha256_in_prefix": "20b8bb6999504b8743699cb39eda04f21e1f9c72da421f28dad373ef531b0058"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/accordion-js.html",
+        "path_type": "hardlink",
+        "sha256": "bfc8140a3a7844aaa6c905b64a20b84c7362f66a82c07be648dead5cdedf2e95",
+        "size_in_bytes": 542,
+        "sha256_in_prefix": "bfc8140a3a7844aaa6c905b64a20b84c7362f66a82c07be648dead5cdedf2e95"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/accordion-section.html",
+        "path_type": "hardlink",
+        "sha256": "467cbde4313ddb67aa13a6a4e3bf3e8cb8e22b224d32789092eb6b1d93798e86",
+        "size_in_bytes": 1019,
+        "sha256_in_prefix": "467cbde4313ddb67aa13a6a4e3bf3e8cb8e22b224d32789092eb6b1d93798e86"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/args-table.html",
+        "path_type": "hardlink",
+        "sha256": "89d0303ce6a45d43d61f34e5ebc2f03f88db056c07a7b002ebbc5434cdc53a17",
+        "size_in_bytes": 402,
+        "sha256_in_prefix": "89d0303ce6a45d43d61f34e5ebc2f03f88db056c07a7b002ebbc5434cdc53a17"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/base.html",
+        "path_type": "hardlink",
+        "sha256": "ac2efa19fc0185ea4f00a8a6f0a738e2a605d719eef49b4616701c5cdb7ca7d1",
+        "size_in_bytes": 1252,
+        "sha256_in_prefix": "ac2efa19fc0185ea4f00a8a6f0a738e2a605d719eef49b4616701c5cdb7ca7d1"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/caption.html",
+        "path_type": "hardlink",
+        "sha256": "70001b1de3942d1603a2b22fa71f9dc9461eef662f4817166eb1552bfda92d49",
+        "size_in_bytes": 1125,
+        "sha256_in_prefix": "70001b1de3942d1603a2b22fa71f9dc9461eef662f4817166eb1552bfda92d49"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/content-grid.html",
+        "path_type": "hardlink",
+        "sha256": "b59c988ef1691e5e113f9715242e6b31044df68d4e5487cf69b877ed573080b6",
+        "size_in_bytes": 534,
+        "sha256_in_prefix": "b59c988ef1691e5e113f9715242e6b31044df68d4e5487cf69b877ed573080b6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/datatable-js.html",
+        "path_type": "hardlink",
+        "sha256": "699ca86750771cc17aba1f0a039fd251c86b26d370f407e1eee28ca3e0e79bdd",
+        "size_in_bytes": 1509,
+        "sha256_in_prefix": "699ca86750771cc17aba1f0a039fd251c86b26d370f407e1eee28ca3e0e79bdd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/datatable-styles.html",
+        "path_type": "hardlink",
+        "sha256": "da44a2271413fc8192419f1af145d401ab5c7046046a52ab42ae51798bd66fe1",
+        "size_in_bytes": 217,
+        "sha256_in_prefix": "da44a2271413fc8192419f1af145d401ab5c7046046a52ab42ae51798bd66fe1"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/globals.html",
+        "path_type": "hardlink",
+        "sha256": "1b43066c2d5de12a0b2f2eaea146476584464682038ec28645b8b16cb7b5dc18",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "1b43066c2d5de12a0b2f2eaea146476584464682038ec28645b8b16cb7b5dc18"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/metadata.html",
+        "path_type": "hardlink",
+        "sha256": "0b928988d3a2842628255b917c6c4bcf2a81c3dc0fea9529312b70371237d744",
+        "size_in_bytes": 407,
+        "sha256_in_prefix": "0b928988d3a2842628255b917c6c4bcf2a81c3dc0fea9529312b70371237d744"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/annual_water_yield.html",
+        "path_type": "hardlink",
+        "sha256": "4ae9a8749e782e96e87b53bc0da34380d721e8b75b2011afe74d8b3f0272b368",
+        "size_in_bytes": 4856,
+        "sha256_in_prefix": "4ae9a8749e782e96e87b53bc0da34380d721e8b75b2011afe74d8b3f0272b368"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/carbon.html",
+        "path_type": "hardlink",
+        "sha256": "afb3f2d28a213895a57f34369fff6a7f7789d053f289d6a87092eb42b95169aa",
+        "size_in_bytes": 2619,
+        "sha256_in_prefix": "afb3f2d28a213895a57f34369fff6a7f7789d053f289d6a87092eb42b95169aa"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/coastal_vulnerability.html",
+        "path_type": "hardlink",
+        "sha256": "bae4e1569e909b5fecd9e8f8f52390dcc0ac3609b7da6bf505026a2a8f9c4d0c",
+        "size_in_bytes": 2616,
+        "sha256_in_prefix": "bae4e1569e909b5fecd9e8f8f52390dcc0ac3609b7da6bf505026a2a8f9c4d0c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/sdr-ndr-report.html",
+        "path_type": "hardlink",
+        "sha256": "de5334a71141419591923524c44ffc9caf7b4216acd1fe072f7b884c8500d6ce",
+        "size_in_bytes": 3045,
+        "sha256_in_prefix": "de5334a71141419591923524c44ffc9caf7b4216acd1fe072f7b884c8500d6ce"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/seasonal_water_yield.html",
+        "path_type": "hardlink",
+        "sha256": "7ec791ed192a5d91206b82c667c2dbe9763753830fc7e1a37df10d2389991bb5",
+        "size_in_bytes": 3983,
+        "sha256_in_prefix": "7ec791ed192a5d91206b82c667c2dbe9763753830fc7e1a37df10d2389991bb5"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/urban_cooling.html",
+        "path_type": "hardlink",
+        "sha256": "f50712250a2a7d55f9de3013a0458420dabb01bd4c9d7a09d7f8494682f3dbda",
+        "size_in_bytes": 4530,
+        "sha256_in_prefix": "f50712250a2a7d55f9de3013a0458420dabb01bd4c9d7a09d7f8494682f3dbda"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/urban_mental_health.html",
+        "path_type": "hardlink",
+        "sha256": "89f16d0f48506953b9741444e702dff72b2ab1c40e7b42fa0c52d6f8da670645",
+        "size_in_bytes": 4795,
+        "sha256_in_prefix": "89f16d0f48506953b9741444e702dff72b2ab1c40e7b42fa0c52d6f8da670645"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/models/urban_nature_access.html",
+        "path_type": "hardlink",
+        "sha256": "56710ae204cc8e4f93a8db66d2ff5513513e5ccd3f5fa5e3c993984a13055909",
+        "size_in_bytes": 4297,
+        "sha256_in_prefix": "56710ae204cc8e4f93a8db66d2ff5513513e5ccd3f5fa5e3c993984a13055909"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/raster-plot-img.html",
+        "path_type": "hardlink",
+        "sha256": "dfa16dc21fb805cd5ff21d4acff834736e062bfd3c27de63c7a8a31675ebd089",
+        "size_in_bytes": 161,
+        "sha256_in_prefix": "dfa16dc21fb805cd5ff21d4acff834736e062bfd3c27de63c7a8a31675ebd089"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/styles.html",
+        "path_type": "hardlink",
+        "sha256": "9fc1e9f70d27a6494d3bbacbeac38f0ce465217ce61d23413b1598af234f55e2",
+        "size_in_bytes": 5768,
+        "sha256_in_prefix": "9fc1e9f70d27a6494d3bbacbeac38f0ce465217ce61d23413b1598af234f55e2"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/userguide-link.html",
+        "path_type": "hardlink",
+        "sha256": "27b205bba177078f21ba45a5b295ec351ed294a76900a65a1765c49ef7535ed9",
+        "size_in_bytes": 2278,
+        "sha256_in_prefix": "27b205bba177078f21ba45a5b295ec351ed294a76900a65a1765c49ef7535ed9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/vega-dependencies.html",
+        "path_type": "hardlink",
+        "sha256": "e3213abaad49bb655e3af6fd46bfe5d6c52bc86e91620aadd5ec0e7b358490f8",
+        "size_in_bytes": 194,
+        "sha256_in_prefix": "e3213abaad49bb655e3af6fd46bfe5d6c52bc86e91620aadd5ec0e7b358490f8"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/vega-embed-js.html",
+        "path_type": "hardlink",
+        "sha256": "a7971fbc6a715f89675227acad0865490f7640370de7033ab23f98ac981361cb",
+        "size_in_bytes": 1211,
+        "sha256_in_prefix": "a7971fbc6a715f89675227acad0865490f7640370de7033ab23f98ac981361cb"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/vegalite-plot.html",
+        "path_type": "hardlink",
+        "sha256": "2d0f29939fd135c09410f3d79765fd2b4707edf859b5be03e36a4527a1550439",
+        "size_in_bytes": 231,
+        "sha256_in_prefix": "2d0f29939fd135c09410f3d79765fd2b4707edf859b5be03e36a4527a1550439"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/templates/wide-table.html",
+        "path_type": "hardlink",
+        "sha256": "407d9d5f470cd076232be2ace821db04ebab563326e536bc669c1fc158f5d9f9",
+        "size_in_bytes": 587,
+        "sha256_in_prefix": "407d9d5f470cd076232be2ace821db04ebab563326e536bc669c1fc158f5d9f9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/reports/vector_utils.py",
+        "path_type": "hardlink",
+        "sha256": "fa1d8c3d4f9b17908c04ca77ce704946cb4e87d271619c5954686fb284afab40",
+        "size_in_bytes": 7131,
+        "sha256_in_prefix": "fa1d8c3d4f9b17908c04ca77ce704946cb4e87d271619c5954686fb284afab40"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/routedem/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "907f551d295cefba8f3fd410d3151b0fac96f037981de4bcc56bb6e55a7dc862",
+        "size_in_bytes": 94,
+        "sha256_in_prefix": "907f551d295cefba8f3fd410d3151b0fac96f037981de4bcc56bb6e55a7dc862"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/routedem/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef6bd7e8d929f075b2bf332b176b0b321930a1b3fd771a1c347318e9f900126",
+        "size_in_bytes": 260,
+        "sha256_in_prefix": "aef6bd7e8d929f075b2bf332b176b0b321930a1b3fd771a1c347318e9f900126"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/routedem/__pycache__/routedem.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "00187519207a871db9b503f10d6b59b427d05cb8e7ff764a0cc032f72a5deec7",
+        "size_in_bytes": 18658,
+        "sha256_in_prefix": "00187519207a871db9b503f10d6b59b427d05cb8e7ff764a0cc032f72a5deec7"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/routedem/routedem.py",
+        "path_type": "hardlink",
+        "sha256": "45601ee839c1e85c95ce2f8a6fdb19046d97f3adfc05b1bc2a4ecc23711ee9ed",
+        "size_in_bytes": 22397,
+        "sha256_in_prefix": "45601ee839c1e85c95ce2f8a6fdb19046d97f3adfc05b1bc2a4ecc23711ee9ed"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/rst_generator.py",
+        "path_type": "hardlink",
+        "sha256": "15a86d75c18354b6e418c01d43b14d3b077201f0f4e1cd07b38ec4e88369feed",
+        "size_in_bytes": 7177,
+        "sha256_in_prefix": "15a86d75c18354b6e418c01d43b14d3b077201f0f4e1cd07b38ec4e88369feed"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenario_gen_proximity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5ca72bcf9b420e14eef37ee67e6db8d1c318ed902114a505966c5205952a5728",
+        "size_in_bytes": 136,
+        "sha256_in_prefix": "5ca72bcf9b420e14eef37ee67e6db8d1c318ed902114a505966c5205952a5728"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenario_gen_proximity/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "616b669ff43998aecf525d46f5a9aef6116679c4091aab534a41f6dc00d3a794",
+        "size_in_bytes": 288,
+        "sha256_in_prefix": "616b669ff43998aecf525d46f5a9aef6116679c4091aab534a41f6dc00d3a794"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenario_gen_proximity/__pycache__/scenario_gen_proximity.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2878928b33a38deea93b36485b90ae7b9a5db73293533d37c6f9a372dccf16b0",
+        "size_in_bytes": 37496,
+        "sha256_in_prefix": "2878928b33a38deea93b36485b90ae7b9a5db73293533d37c6f9a372dccf16b0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenario_gen_proximity/scenario_gen_proximity.py",
+        "path_type": "hardlink",
+        "sha256": "5799d3d48cbd7329f7ddbe9ceb15b2f5d8082aeecf92ff7cfbb839aa3cfe1178",
+        "size_in_bytes": 40332,
+        "sha256_in_prefix": "5799d3d48cbd7329f7ddbe9ceb15b2f5d8082aeecf92ff7cfbb839aa3cfe1178"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2ec711ce398f915f0230591facdecb386071270b2937e13bb07fbef554a7a604",
+        "size_in_bytes": 112,
+        "sha256_in_prefix": "2ec711ce398f915f0230591facdecb386071270b2937e13bb07fbef554a7a604"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7da9d52c616f130698c7d34efc268b6858bf29ee77576afdab517e8a817055a0",
+        "size_in_bytes": 272,
+        "sha256_in_prefix": "7da9d52c616f130698c7d34efc268b6858bf29ee77576afdab517e8a817055a0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/__pycache__/scenic_quality.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "276655316b858fc2b66440518fd5d476f6840373c08c46441c1d5525ee36fcf9",
+        "size_in_bytes": 45862,
+        "sha256_in_prefix": "276655316b858fc2b66440518fd5d476f6840373c08c46441c1d5525ee36fcf9"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/scenic_quality.py",
+        "path_type": "hardlink",
+        "sha256": "158ad7a139d9ebd025552a788cf9e2c2548514d2f9e389f1b117dd4d782e5ed6",
+        "size_in_bytes": 45994,
+        "sha256_in_prefix": "158ad7a139d9ebd025552a788cf9e2c2548514d2f9e389f1b117dd4d782e5ed6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/viewshed.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "4a30e84f422b6be59f4ae36d95b437b36bc2d2686f8307b9a8841428208ecc0c",
+        "size_in_bytes": 123904,
+        "sha256_in_prefix": "4a30e84f422b6be59f4ae36d95b437b36bc2d2686f8307b9a8841428208ecc0c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/viewshed.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "5d4a68d83db84b2ba5a1d3743581a299cb9fbef6436d026cef7e321dc97de9b6",
+        "size_in_bytes": 901183,
+        "sha256_in_prefix": "87a9ea340cca5d3892b8c96d2a098f270c1b4ce5e9b743b42d2e87d496aade20"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/scenic_quality/viewshed.pyx",
+        "path_type": "hardlink",
+        "sha256": "4bf3ba5b9eda9c69c40b0f887cd50e0b71c2025a7ab27606a8a99aebbafa69ee",
+        "size_in_bytes": 32280,
+        "sha256_in_prefix": "4bf3ba5b9eda9c69c40b0f887cd50e0b71c2025a7ab27606a8a99aebbafa69ee"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bf493a6aea3eda49753aed17ffc9d7dc0a7d2d0ba3f6672e1f5e935e8402d0c3",
+        "size_in_bytes": 79,
+        "sha256_in_prefix": "bf493a6aea3eda49753aed17ffc9d7dc0a7d2d0ba3f6672e1f5e935e8402d0c3"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e047f778ba768def84e853d6db107cb4a3def63ea3b996b03394f16c1bf7f679",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "e047f778ba768def84e853d6db107cb4a3def63ea3b996b03394f16c1bf7f679"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdd7d6aec1e5b82b26c548c3524c7318886c36ac0855aef895beef59494f4ebf",
+        "size_in_bytes": 3821,
+        "sha256_in_prefix": "fdd7d6aec1e5b82b26c548c3524c7318886c36ac0855aef895beef59494f4ebf"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/__pycache__/sdr.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "51f85e2b72d2464dee88339dbfa2b6b8dd62fa7a0a2cd0e8b30d6933b1531f2b",
+        "size_in_bytes": 60017,
+        "sha256_in_prefix": "51f85e2b72d2464dee88339dbfa2b6b8dd62fa7a0a2cd0e8b30d6933b1531f2b"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "de18e3005bac888986c493a20447afe76b9a5d3452152e81db59da76a8553b48",
+        "size_in_bytes": 4014,
+        "sha256_in_prefix": "de18e3005bac888986c493a20447afe76b9a5d3452152e81db59da76a8553b48"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sdr.py",
+        "path_type": "hardlink",
+        "sha256": "257ce59ee2eed4711cfbced4251f20737902155f86b0fb16f85b7926ac2ec278",
+        "size_in_bytes": 64278,
+        "sha256_in_prefix": "257ce59ee2eed4711cfbced4251f20737902155f86b0fb16f85b7926ac2ec278"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sdr_core.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c5908014fd3e3ae94d11fd4ea698367707a1ceab22ae287f6a3d84dc254e071d",
+        "size_in_bytes": 86528,
+        "sha256_in_prefix": "c5908014fd3e3ae94d11fd4ea698367707a1ceab22ae287f6a3d84dc254e071d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sdr_core.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "739d1a89dd6e34f79584bafa8c4f92c65a382238855a80763cbeb72df59a8144",
+        "size_in_bytes": 371095,
+        "sha256_in_prefix": "c46acf52e5e88cff071bba2319367c036a5ee7bdc925b8f29a27cc70983ca389"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sdr_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "0aeca9b2ef7c44b3ffeae1e597efcde1ca0bffe3c85a0be112c6706a3a178940",
+        "size_in_bytes": 3596,
+        "sha256_in_prefix": "0aeca9b2ef7c44b3ffeae1e597efcde1ca0bffe3c85a0be112c6706a3a178940"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sediment_deposition.h",
+        "path_type": "hardlink",
+        "sha256": "9eea65b7266877c6fbee0e9481d3cc78ac53303e190f8023fada053320fac9f7",
+        "size_in_bytes": 11335,
+        "sha256_in_prefix": "9eea65b7266877c6fbee0e9481d3cc78ac53303e190f8023fada053320fac9f7"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/sdr/sediment_deposition.pxd",
+        "path_type": "hardlink",
+        "sha256": "42d8aa50e4219ab852589b2cfac66a64abfaef34fc4e9b7bf47418fda5b33593",
+        "size_in_bytes": 163,
+        "sha256_in_prefix": "42d8aa50e4219ab852589b2cfac66a64abfaef34fc4e9b7bf47418fda5b33593"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "263ef0cf241961fd9b67ce88ef55e29d60bf2069d40c8eb3c4461e4d2572dc14",
+        "size_in_bytes": 130,
+        "sha256_in_prefix": "263ef0cf241961fd9b67ce88ef55e29d60bf2069d40c8eb3c4461e4d2572dc14"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "32ecf56bca4e461f66b92cd0046041cccd3989dd7f51526f7902d9911515a07d",
+        "size_in_bytes": 284,
+        "sha256_in_prefix": "32ecf56bca4e461f66b92cd0046041cccd3989dd7f51526f7902d9911515a07d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "039638bb2bcacbc256a921b9915ee87b74dce8ba037bddd0c4facceea2e76c6d",
+        "size_in_bytes": 16121,
+        "sha256_in_prefix": "039638bb2bcacbc256a921b9915ee87b74dce8ba037bddd0c4facceea2e76c6d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/__pycache__/seasonal_water_yield.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f67946a938f95bd556e1bff88680f2cd8393b3024359c0f8c1ba19bfde2ac56",
+        "size_in_bytes": 62151,
+        "sha256_in_prefix": "9f67946a938f95bd556e1bff88680f2cd8393b3024359c0f8c1ba19bfde2ac56"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "31236443cba6665d6fe3dfce8dcf4e673fd31cfd8c73bce9d41f40d81f2198de",
+        "size_in_bytes": 14246,
+        "sha256_in_prefix": "31236443cba6665d6fe3dfce8dcf4e673fd31cfd8c73bce9d41f40d81f2198de"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield.py",
+        "path_type": "hardlink",
+        "sha256": "0fec6dcb84a0a65d48514950993a3892488350aae732ac8fd4a7005f28a7351d",
+        "size_in_bytes": 70395,
+        "sha256_in_prefix": "0fec6dcb84a0a65d48514950993a3892488350aae732ac8fd4a7005f28a7351d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "2af01ae77be5454625ca1c0ec2e3f0698bf17453e4c3fd9db6bc56e67a772f70",
+        "size_in_bytes": 155648,
+        "sha256_in_prefix": "2af01ae77be5454625ca1c0ec2e3f0698bf17453e4c3fd9db6bc56e67a772f70"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\natcap.invest_1788439224783\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "6f99f2b4f9e6ef90b0b827018f7c9946fcfb0714cd0a52ed8ad69ce6337a4ac1",
+        "size_in_bytes": 730808,
+        "sha256_in_prefix": "4962245e00c4362678b8f5a78754807d46dd3af84cd76bd7947a5f015ef5bb9f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/seasonal_water_yield_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "8035defb48c5e29916d9c15faa8833654fc1d4ae0bc752a330c3ea8bb44804f4",
+        "size_in_bytes": 6703,
+        "sha256_in_prefix": "8035defb48c5e29916d9c15faa8833654fc1d4ae0bc752a330c3ea8bb44804f4"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/swy.h",
+        "path_type": "hardlink",
+        "sha256": "8bf8d5ae47cc9ae2f6cd6aa4f5cc2921a21e08f4299f3330adce2c04332570dd",
+        "size_in_bytes": 17422,
+        "sha256_in_prefix": "8bf8d5ae47cc9ae2f6cd6aa4f5cc2921a21e08f4299f3330adce2c04332570dd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/seasonal_water_yield/swy.pxd",
+        "path_type": "hardlink",
+        "sha256": "b95136e843a36374f92be8fc456fe6a7085fe7c2823cca234f4bde6f9d1ba312",
+        "size_in_bytes": 752,
+        "sha256_in_prefix": "b95136e843a36374f92be8fc456fe6a7085fe7c2823cca234f4bde6f9d1ba312"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/spec.py",
+        "path_type": "hardlink",
+        "sha256": "a00c2196a9c8cacf9e11b8f0c87a94a05e4fc493c13a70a440d78956c2a63fb0",
+        "size_in_bytes": 108966,
+        "sha256_in_prefix": "a00c2196a9c8cacf9e11b8f0c87a94a05e4fc493c13a70a440d78956c2a63fb0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/stormwater/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ddac20c7255323daa14401bd6eac580661c5b46cf7d7497b43babe3aa8da39d0",
+        "size_in_bytes": 100,
+        "sha256_in_prefix": "ddac20c7255323daa14401bd6eac580661c5b46cf7d7497b43babe3aa8da39d0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/stormwater/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3228f1e7032d06fb26fcc699127e56360bb6c8353efb0060b5f0468dd370d07c",
+        "size_in_bytes": 264,
+        "sha256_in_prefix": "3228f1e7032d06fb26fcc699127e56360bb6c8353efb0060b5f0468dd370d07c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/stormwater/__pycache__/stormwater.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "0bd1edf172b35a31b72e1f0dc49c0a97f7319ccdf9a68f95dcdd9686ab027fe6",
+        "size_in_bytes": 44196,
+        "sha256_in_prefix": "0bd1edf172b35a31b72e1f0dc49c0a97f7319ccdf9a68f95dcdd9686ab027fe6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/stormwater/stormwater.py",
+        "path_type": "hardlink",
+        "sha256": "6069a4114c5cf40f2248ecc8aa48c3aa713badbeb5f115c11a2e3d617014bdb0",
+        "size_in_bytes": 54864,
+        "sha256_in_prefix": "6069a4114c5cf40f2248ecc8aa48c3aa713badbeb5f115c11a2e3d617014bdb0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/ui_server.py",
+        "path_type": "hardlink",
+        "sha256": "8b048c703c110dfa3635cdd1c77f3c60e2783d2937427e711a8a3c40c795b902",
+        "size_in_bytes": 9822,
+        "sha256_in_prefix": "8b048c703c110dfa3635cdd1c77f3c60e2783d2937427e711a8a3c40c795b902"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/unit_definitions.txt",
+        "path_type": "hardlink",
+        "sha256": "ccefa07ecb5f6a60d3f4b52d5154de94aa3631c100f49ea0b692ae9373145211",
+        "size_in_bytes": 1684,
+        "sha256_in_prefix": "ccefa07ecb5f6a60d3f4b52d5154de94aa3631c100f49ea0b692ae9373145211"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/unit_registry.py",
+        "path_type": "hardlink",
+        "sha256": "7c0fb08f7886c4780dc3579b8e3399d7cec90566f275de1e71394fb64e009a19",
+        "size_in_bytes": 331,
+        "sha256_in_prefix": "7c0fb08f7886c4780dc3579b8e3399d7cec90566f275de1e71394fb64e009a19"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f4fd5f7394bb25ec96e2714ec101e36c2e455b173a3ebabdaeeeb3eb0dc0706",
+        "size_in_bytes": 127,
+        "sha256_in_prefix": "8f4fd5f7394bb25ec96e2714ec101e36c2e455b173a3ebabdaeeeb3eb0dc0706"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "a60da59dcfbbcd8a2d436e894e3979fa9a934610c249f06396fd21f8b9b7ab81",
+        "size_in_bytes": 282,
+        "sha256_in_prefix": "a60da59dcfbbcd8a2d436e894e3979fa9a934610c249f06396fd21f8b9b7ab81"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "657e4bcd5e54ba4dd295b15554f914147a74adbc1472c88351ac5928601342a8",
+        "size_in_bytes": 20416,
+        "sha256_in_prefix": "657e4bcd5e54ba4dd295b15554f914147a74adbc1472c88351ac5928601342a8"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/__pycache__/urban_cooling_model.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "47faf286282de4f9bdaca319489d5f7993c042c525acedba4715be20cf4df34e",
+        "size_in_bytes": 61098,
+        "sha256_in_prefix": "47faf286282de4f9bdaca319489d5f7993c042c525acedba4715be20cf4df34e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "1ca68be9f95991d7a1b637b58ebf3437b496d809ef22fe6ffc2ab01da93e8013",
+        "size_in_bytes": 17773,
+        "sha256_in_prefix": "1ca68be9f95991d7a1b637b58ebf3437b496d809ef22fe6ffc2ab01da93e8013"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_cooling_model/urban_cooling_model.py",
+        "path_type": "hardlink",
+        "sha256": "6d485e0ac4a5a22a2773ff0aacf69f452f1d4e022ea0ec238c7e102fa4bd9f1f",
+        "size_in_bytes": 67855,
+        "sha256_in_prefix": "6d485e0ac4a5a22a2773ff0aacf69f452f1d4e022ea0ec238c7e102fa4bd9f1f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "630ac01679238cd86012e2bcc369f5ec8cc54cc1ab1a87f81c2303cab78c0791",
+        "size_in_bytes": 151,
+        "sha256_in_prefix": "630ac01679238cd86012e2bcc369f5ec8cc54cc1ab1a87f81c2303cab78c0791"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "32a29e1546dd8c2840eb5d728f44c257de964aecb2670f2f26b250179aedd2cc",
+        "size_in_bytes": 298,
+        "sha256_in_prefix": "32a29e1546dd8c2840eb5d728f44c257de964aecb2670f2f26b250179aedd2cc"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/__pycache__/urban_flood_risk_mitigation.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb75c9ffed11f41d4ba465b73d3b815f38bbed4a676ce8223faf3f81f5db055a",
+        "size_in_bytes": 34901,
+        "sha256_in_prefix": "cb75c9ffed11f41d4ba465b73d3b815f38bbed4a676ce8223faf3f81f5db055a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_flood_risk_mitigation/urban_flood_risk_mitigation.py",
+        "path_type": "hardlink",
+        "sha256": "8d80209db4249974ca4dd0b97521149db814bde9fcc681f08c65a8e542dcd570",
+        "size_in_bytes": 39403,
+        "sha256_in_prefix": "8d80209db4249974ca4dd0b97521149db814bde9fcc681f08c65a8e542dcd570"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcc2fb4e94199567f18f26ab67b26463d10d00afbdbbde95e3bb9098f098d386",
+        "size_in_bytes": 127,
+        "sha256_in_prefix": "fcc2fb4e94199567f18f26ab67b26463d10d00afbdbbde95e3bb9098f098d386"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cea0053455b22e2d0b2724153f2eb6c07aec130db2be84f7852f540a2a94cbb",
+        "size_in_bytes": 282,
+        "sha256_in_prefix": "3cea0053455b22e2d0b2724153f2eb6c07aec130db2be84f7852f540a2a94cbb"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dd410cacb41adde570c724b1635a1accb116c1a7fbc64df551f6ecc4dfc9a45",
+        "size_in_bytes": 14489,
+        "sha256_in_prefix": "8dd410cacb41adde570c724b1635a1accb116c1a7fbc64df551f6ecc4dfc9a45"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/__pycache__/urban_mental_health.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "18f21f9bab0663cbddace6307468d0761a62c065cfc93b49905386d9b451abbb",
+        "size_in_bytes": 59113,
+        "sha256_in_prefix": "18f21f9bab0663cbddace6307468d0761a62c065cfc93b49905386d9b451abbb"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "8fcde5c4825c3d73685885f744e7f3d6f080d1edb00e6f94960b6a89d5a4fc87",
+        "size_in_bytes": 13300,
+        "sha256_in_prefix": "8fcde5c4825c3d73685885f744e7f3d6f080d1edb00e6f94960b6a89d5a4fc87"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_mental_health/urban_mental_health.py",
+        "path_type": "hardlink",
+        "sha256": "21b2aa6a27da409f2b3c8feb7a080b94b2653b8b55eb711c9de7a913669d0012",
+        "size_in_bytes": 67729,
+        "sha256_in_prefix": "21b2aa6a27da409f2b3c8feb7a080b94b2653b8b55eb711c9de7a913669d0012"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e0e10f42c50f022cdb8c0df8cc20d7353de0825ff939f3b6d81d6c7086bea2e",
+        "size_in_bytes": 127,
+        "sha256_in_prefix": "7e0e10f42c50f022cdb8c0df8cc20d7353de0825ff939f3b6d81d6c7086bea2e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6dcd0aa296407cb91357e22d33e301e12dece92386b1eb97adb7960d7a69d7f",
+        "size_in_bytes": 282,
+        "sha256_in_prefix": "a6dcd0aa296407cb91357e22d33e301e12dece92386b1eb97adb7960d7a69d7f"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/reporter.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6cbceb9df403c07cb2de867ad7c19d13bd596e590b163a4b7d9015c9970a2b3",
+        "size_in_bytes": 14823,
+        "sha256_in_prefix": "b6cbceb9df403c07cb2de867ad7c19d13bd596e590b163a4b7d9015c9970a2b3"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/__pycache__/urban_nature_access.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "93cb68a1d5d2b5f9cc4431790f5d9a8031e27fc148b43d40623c826b45e139d4",
+        "size_in_bytes": 87203,
+        "sha256_in_prefix": "93cb68a1d5d2b5f9cc4431790f5d9a8031e27fc148b43d40623c826b45e139d4"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/reporter.py",
+        "path_type": "hardlink",
+        "sha256": "9d09d87f7b1e8dc3b9137cb33331f34a43bc996b471c7905d5a4bd0134c1ead7",
+        "size_in_bytes": 14421,
+        "sha256_in_prefix": "9d09d87f7b1e8dc3b9137cb33331f34a43bc996b471c7905d5a4bd0134c1ead7"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/urban_nature_access/urban_nature_access.py",
+        "path_type": "hardlink",
+        "sha256": "2553084e88ce295f987922ac8b627e6e0beaa5bb51dc7ba2804a662d9a8d045a",
+        "size_in_bytes": 109396,
+        "sha256_in_prefix": "2553084e88ce295f987922ac8b627e6e0beaa5bb51dc7ba2804a662d9a8d045a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/usage.py",
+        "path_type": "hardlink",
+        "sha256": "62bb53b6dc9e809bf2dde67bebee6892de7dfecb2f781e4003f14e0b892de2fc",
+        "size_in_bytes": 6500,
+        "sha256_in_prefix": "62bb53b6dc9e809bf2dde67bebee6892de7dfecb2f781e4003f14e0b892de2fc"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/utils.py",
+        "path_type": "hardlink",
+        "sha256": "cbd0e9fc4c4b7c90186c61e2a481a36b49e0419b1d1fdfd9ee4949dbe2ea1d71",
+        "size_in_bytes": 38320,
+        "sha256_in_prefix": "cbd0e9fc4c4b7c90186c61e2a481a36b49e0419b1d1fdfd9ee4949dbe2ea1d71"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/validation.py",
+        "path_type": "hardlink",
+        "sha256": "079468769632f67fd6a351d9206abdbb492d6753fdfca6d5bb01c1c90afc4dbd",
+        "size_in_bytes": 14938,
+        "sha256_in_prefix": "079468769632f67fd6a351d9206abdbb492d6753fdfca6d5bb01c1c90afc4dbd"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/validation_messages.py",
+        "path_type": "hardlink",
+        "sha256": "679ed53207fa6dec74fa0904c1c7803cb925fec094ffe5a1cac2a59e151faac4",
+        "size_in_bytes": 2152,
+        "sha256_in_prefix": "679ed53207fa6dec74fa0904c1c7803cb925fec094ffe5a1cac2a59e151faac4"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wave_energy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c3c89a1127d20d6074c215f5375de730f23eb52aa11517b39d8e15c4402f3ff",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "2c3c89a1127d20d6074c215f5375de730f23eb52aa11517b39d8e15c4402f3ff"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wave_energy/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d4fb426078078a9a54645967343ecb26848b96c7832b1620ccf5ce577421bd6",
+        "size_in_bytes": 266,
+        "sha256_in_prefix": "9d4fb426078078a9a54645967343ecb26848b96c7832b1620ccf5ce577421bd6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wave_energy/__pycache__/wave_energy.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d54d7e85e5a2e1a5a0158380f4e1032776ffe08d193a362276ac5fae2b536a0",
+        "size_in_bytes": 81868,
+        "sha256_in_prefix": "9d54d7e85e5a2e1a5a0158380f4e1032776ffe08d193a362276ac5fae2b536a0"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wave_energy/wave_energy.py",
+        "path_type": "hardlink",
+        "sha256": "eda63286b02eb9528b1964e5d674fe7680f996c0edf635770a67084a97cef066",
+        "size_in_bytes": 92278,
+        "sha256_in_prefix": "eda63286b02eb9528b1964e5d674fe7680f996c0edf635770a67084a97cef066"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wind_energy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "060f95ad0a4dafca704ecf3f025f5af3720a4b83bcd2cbbddf38da236116871a",
+        "size_in_bytes": 103,
+        "sha256_in_prefix": "060f95ad0a4dafca704ecf3f025f5af3720a4b83bcd2cbbddf38da236116871a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wind_energy/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "63ddfb671d3709ccfee22f6abd0096aecbd1dcfe2665077ab392f7708650157a",
+        "size_in_bytes": 266,
+        "sha256_in_prefix": "63ddfb671d3709ccfee22f6abd0096aecbd1dcfe2665077ab392f7708650157a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wind_energy/__pycache__/wind_energy.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "51c44765038b729676af51d600dad4ce658d0db8e118bb1aaeaffa48c25d558e",
+        "size_in_bytes": 98806,
+        "sha256_in_prefix": "51c44765038b729676af51d600dad4ce658d0db8e118bb1aaeaffa48c25d558e"
+      },
+      {
+        "_path": "Lib/site-packages/natcap/invest/wind_energy/wind_energy.py",
+        "path_type": "hardlink",
+        "sha256": "a13e31235b3e9a13d333906ad8fd131dab3ba5cbe015e06ab85ca254023f40e6",
+        "size_in_bytes": 117315,
+        "sha256_in_prefix": "a13e31235b3e9a13d333906ad8fd131dab3ba5cbe015e06ab85ca254023f40e6"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2251ec3293fdcc3399f879c8c7be7d2773d095e25e20ad7c79cec1331d3caf9a",
+        "size_in_bytes": 4091,
+        "sha256_in_prefix": "2251ec3293fdcc3399f879c8c7be7d2773d095e25e20ad7c79cec1331d3caf9a"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0118d083157eba937572c8b2e042977c4c8b978a1dd963e9658f0aaddc6dab2c",
+        "size_in_bytes": 20978,
+        "sha256_in_prefix": "0118d083157eba937572c8b2e042977c4c8b978a1dd963e9658f0aaddc6dab2c"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f8868e546779e082b2f4ef1acdce705bd9cc24829ee8add213946b7906f8242d",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "f8868e546779e082b2f4ef1acdce705bd9cc24829ee8add213946b7906f8242d"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e063bd62472ebdd26c40f18000fdd06e535a94f8847736ec3fff6fb1706f9de7",
+        "size_in_bytes": 50,
+        "sha256_in_prefix": "e063bd62472ebdd26c40f18000fdd06e535a94f8847736ec3fff6fb1706f9de7"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358,
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "_path": "Lib/site-packages/natcap_invest-3.20.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8c12f54cccbe283a67e0f0af7d5206ce303f3a502c372266babb3e9ac78fb0fb",
+        "size_in_bytes": 7,
+        "sha256_in_prefix": "8c12f54cccbe283a67e0f0af7d5206ce303f3a502c372266babb3e9ac78fb0fb"
+      },
+      {
+        "_path": "Scripts/invest-script.py",
+        "path_type": "hardlink",
+        "sha256": "2cd0dcc2b712bee11517e373ef477daa3a2139a093f7827f9cfa53eff94783d5",
+        "size_in_bytes": 211,
+        "sha256_in_prefix": "2cd0dcc2b712bee11517e373ef477daa3a2139a093f7827f9cfa53eff94783d5"
+      },
+      {
+        "_path": "Scripts/invest.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\natcap.invest-3.20.2-py314h857f46a_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "natcap.invest"
+  ]
+}

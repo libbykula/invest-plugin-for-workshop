@@ -1,0 +1,70 @@
+{
+  "name": "libpsl",
+  "version": "0.23.1",
+  "build": "h9b16d47_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libpsl-0.23.1-h9b16d47_1.conda",
+  "md5": "39cdf8c4f59e4d253cfa8091c8b3d7de",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libpsl-0.23.1-h9b16d47_1.conda",
+  "sha256": "e53fe3b09f82b59b644264133d6d148ac31bb5451b7583cff55690bf038f2f62",
+  "depends": [
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208",
+    "ucrt >=10.0.20348.0",
+    "icu >=78.3,<79.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1786970749988,
+  "size": 73511,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpsl-0.23.1-h9b16d47_1.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpsl-0.23.1-h9b16d47_1",
+  "files": [
+    "Library/bin/psl-5.dll",
+    "Library/include/libpsl.h",
+    "Library/lib/pkgconfig/libpsl.pc",
+    "Library/lib/psl.lib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/psl-5.dll",
+        "path_type": "hardlink",
+        "sha256": "24a1963f1684f342fbd2740c498cddd8f4dbf12846414d2b95637a1a24f86ba1",
+        "size_in_bytes": 77312,
+        "sha256_in_prefix": "24a1963f1684f342fbd2740c498cddd8f4dbf12846414d2b95637a1a24f86ba1"
+      },
+      {
+        "_path": "Library/include/libpsl.h",
+        "path_type": "hardlink",
+        "sha256": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e",
+        "size_in_bytes": 5766,
+        "sha256_in_prefix": "c6ef8f826ae6af359f3cd303314164aa13c7ff61e2e38daa11c4ede5b528532e"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libpsl.pc",
+        "prefix_placeholder": "D:/bld/bld/rattler-build_libpsl_1786970749/h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "8a6643040742e5f53609b5ef562d1593a471f8c1cbe3fadd78e161e1433ec66f",
+        "size_in_bytes": 293,
+        "sha256_in_prefix": "198ef58370acb7ddb8bf427649cb9312b112ea66e995a423d3d3ea78f9cda822"
+      },
+      {
+        "_path": "Library/lib/psl.lib",
+        "path_type": "hardlink",
+        "sha256": "76a5985a2f16178625c0674c1623b813ad705e0e66e1336c3bff03de898459b1",
+        "size_in_bytes": 6276,
+        "sha256_in_prefix": "76a5985a2f16178625c0674c1623b813ad705e0e66e1336c3bff03de898459b1"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpsl-0.23.1-h9b16d47_1",
+    "type": 1
+  }
+}

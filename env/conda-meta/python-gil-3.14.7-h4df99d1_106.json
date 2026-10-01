@@ -1,0 +1,34 @@
+{
+  "name": "python-gil",
+  "version": "3.14.7",
+  "build": "h4df99d1_106",
+  "build_number": 106,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "python-gil-3.14.7-h4df99d1_106.conda",
+  "md5": "b672ecb44198ade19ef249bf99f4b1ff",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-gil-3.14.7-h4df99d1_106.conda",
+  "sha256": "801ef80bc9f9394d9b3b5cae5a90c33cbbc33004b3e93195b93af818aad8888b",
+  "depends": [
+    "cpython 3.14.7.*",
+    "python_abi * *_cp314"
+  ],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "Python-2.0",
+  "package_type": "noarch_generic",
+  "timestamp": 1788383547342,
+  "size": 51276,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\python-gil-3.14.7-h4df99d1_106.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\python-gil-3.14.7-h4df99d1_106",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\python-gil-3.14.7-h4df99d1_106",
+    "type": 1
+  }
+}

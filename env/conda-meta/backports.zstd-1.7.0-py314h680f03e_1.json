@@ -1,0 +1,33 @@
+{
+  "name": "backports.zstd",
+  "version": "1.7.0",
+  "build": "py314h680f03e_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "backports.zstd-1.7.0-py314h680f03e_1.conda",
+  "md5": "67924260a851b5273e39f9b28b6b5e24",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/backports.zstd-1.7.0-py314h680f03e_1.conda",
+  "sha256": "ad0f78582ee64ec1c66a3daac32986e81b400d3ac719e5a3cbdb22e55065760e",
+  "depends": [
+    "python >=3.14"
+  ],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "BSD-3-Clause AND MIT AND EPL-2.0",
+  "package_type": "noarch_generic",
+  "timestamp": 1788491291925,
+  "size": 7539,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\backports.zstd-1.7.0-py314h680f03e_1.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\backports.zstd-1.7.0-py314h680f03e_1",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\backports.zstd-1.7.0-py314h680f03e_1",
+    "type": 1
+  }
+}

@@ -1,0 +1,14 @@
+prefix=C:/Users/kibby/Files/invest-plugin-for-workshop/env/Library
+exec_prefix=C:/Users/kibby/Files/invest-plugin-for-workshop/env/Library
+libdir=C:/Users/kibby/Files/invest-plugin-for-workshop/env/Library/lib
+sharedlibdir=C:/Users/kibby/Files/invest-plugin-for-workshop/env/Library/lib
+includedir=C:/Users/kibby/Files/invest-plugin-for-workshop/env/Library/include/minizip
+
+Name: minizip
+Description: Zip manipulation library
+Version: 4.2.2
+
+Requires.private: zlib
+Libs: -L${libdir} -L${sharedlibdir} -lminizip
+Libs.private: -lbz2 -llzma -lzstd
+Cflags: -I${includedir}

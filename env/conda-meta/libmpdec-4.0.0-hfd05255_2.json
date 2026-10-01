@@ -1,0 +1,43 @@
+{
+  "name": "libmpdec",
+  "version": "4.0.0",
+  "build": "hfd05255_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libmpdec-4.0.0-hfd05255_2.conda",
+  "md5": "5ae92fd6614edd024576e14069d7ad4c",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda",
+  "sha256": "f07e451de3db1836b87f7aedf95c8e65cdb06c0e6105329ba24bb5f7b5c75e2a",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "BSD-2-Clause",
+  "timestamp": 1786650384519,
+  "size": 89109,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libmpdec-4.0.0-hfd05255_2.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libmpdec-4.0.0-hfd05255_2",
+  "files": [
+    "Library/bin/libmpdec-4.dll"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/libmpdec-4.dll",
+        "path_type": "hardlink",
+        "sha256": "340836968f8169c6d0764bd503b676832a8cdaf73e2d7901d0fd29ff789a8293",
+        "size_in_bytes": 200704,
+        "sha256_in_prefix": "340836968f8169c6d0764bd503b676832a8cdaf73e2d7901d0fd29ff789a8293"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libmpdec-4.0.0-hfd05255_2",
+    "type": 1
+  }
+}

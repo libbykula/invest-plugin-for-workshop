@@ -1,0 +1,138 @@
+{
+  "name": "frozenlist",
+  "version": "1.8.0",
+  "build": "pyhf298e5d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "frozenlist-1.8.0-pyhf298e5d_0.conda",
+  "md5": "7a2d9f4d9f57da47251b2050b149bdf8",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/frozenlist-1.8.0-pyhf298e5d_0.conda",
+  "sha256": "5f5a4e502981700b40ffbce6e3601ff5f95305839b5d5c49d1ef1c4ed33aadde",
+  "depends": [
+    "python >=3.10"
+  ],
+  "constrains": [],
+  "track_features": "frozenlist_no_compile",
+  "noarch": "python",
+  "license": "Apache-2.0",
+  "package_type": "noarch_python",
+  "timestamp": 1779999782801,
+  "size": 19878,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\frozenlist-1.8.0-pyhf298e5d_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\frozenlist-1.8.0-pyhf298e5d_0",
+  "files": [
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/INSTALLER",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/METADATA",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/RECORD",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/REQUESTED",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/WHEEL",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/direct_url.json",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/frozenlist-1.8.0.dist-info/top_level.txt",
+    "Lib/site-packages/frozenlist/__init__.py",
+    "Lib/site-packages/frozenlist/__init__.pyi",
+    "Lib/site-packages/frozenlist/_frozenlist.pyx",
+    "Lib/site-packages/frozenlist/py.typed",
+    "Lib/site-packages/frozenlist/__pycache__/__init__.cpython-314.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "946c22dc9f7e2c76f2d698f00a4306dbe49a820e2b3f1a0e22fe5286cbec35f1",
+        "size_in_bytes": 20333,
+        "sha256_in_prefix": "946c22dc9f7e2c76f2d698f00a4306dbe49a820e2b3f1a0e22fe5286cbec35f1"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4b0fedddefcad1df94cf0b0cd79689581301d11ec0ab4d2fc806f7583629206",
+        "size_in_bytes": 1068,
+        "sha256_in_prefix": "d4b0fedddefcad1df94cf0b0cd79689581301d11ec0ab4d2fc806f7583629206"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c4e26a6253dc761fb26a6ad3771eacefd385858871f9d4e60ccf17aea99a8d26",
+        "size_in_bytes": 106,
+        "sha256_in_prefix": "c4e26a6253dc761fb26a6ad3771eacefd385858871f9d4e60ccf17aea99a8d26"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6",
+        "size_in_bytes": 11332,
+        "sha256_in_prefix": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6"
+      },
+      {
+        "_path": "site-packages/frozenlist-1.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8e2bedc6c3d70379cadd60565b62d6e4cb6efc61edf14640d7735e0acd9c2ae0",
+        "size_in_bytes": 11,
+        "sha256_in_prefix": "8e2bedc6c3d70379cadd60565b62d6e4cb6efc61edf14640d7735e0acd9c2ae0"
+      },
+      {
+        "_path": "site-packages/frozenlist/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c40204daef677006e30131883df9e8fce25f7bc010fb587bcffb9cef7758b040",
+        "size_in_bytes": 2108,
+        "sha256_in_prefix": "c40204daef677006e30131883df9e8fce25f7bc010fb587bcffb9cef7758b040"
+      },
+      {
+        "_path": "site-packages/frozenlist/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "bcc128112d7119e80fb555e80a2f57c9d11e1eccae22af8a75e5f03f93ddb1a0",
+        "size_in_bytes": 1470,
+        "sha256_in_prefix": "bcc128112d7119e80fb555e80a2f57c9d11e1eccae22af8a75e5f03f93ddb1a0"
+      },
+      {
+        "_path": "site-packages/frozenlist/_frozenlist.pyx",
+        "path_type": "hardlink",
+        "sha256": "b7e6868ee12256dfcc64f049d119eb69abd598f04ae9aaf3de2e3c66f5ee62c5",
+        "size_in_bytes": 3708,
+        "sha256_in_prefix": "b7e6868ee12256dfcc64f049d119eb69abd598f04ae9aaf3de2e3c66f5ee62c5"
+      },
+      {
+        "_path": "site-packages/frozenlist/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "size_in_bytes": 7,
+        "sha256_in_prefix": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193"
+      },
+      {
+        "_path": "Lib/site-packages/frozenlist/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4174
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\frozenlist-1.8.0-pyhf298e5d_0",
+    "type": 1
+  }
+}

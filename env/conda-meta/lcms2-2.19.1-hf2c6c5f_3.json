@@ -1,0 +1,119 @@
+{
+  "name": "lcms2",
+  "version": "2.19.1",
+  "build": "hf2c6c5f_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "lcms2-2.19.1-hf2c6c5f_3.conda",
+  "md5": "a817b8a8f09864652c8700bd1893fe81",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/lcms2-2.19.1-hf2c6c5f_3.conda",
+  "sha256": "7c5f96b473b721a4279708b448591dc3d89ed274280ff480dea1b4f9b13e1fcd",
+  "depends": [
+    "libjpeg-turbo >=3.2.0,<4.0a0",
+    "libtiff >=4.7.2,<4.8.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1789052032238,
+  "size": 525499,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\lcms2-2.19.1-hf2c6c5f_3.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\lcms2-2.19.1-hf2c6c5f_3",
+  "files": [
+    "Library/bin/jpgicc.exe",
+    "Library/bin/lcms2.dll",
+    "Library/bin/linkicc.exe",
+    "Library/bin/psicc.exe",
+    "Library/bin/tificc.exe",
+    "Library/bin/transicc.exe",
+    "Library/include/lcms2.h",
+    "Library/include/lcms2_plugin.h",
+    "Library/lib/lcms2.lib",
+    "Library/lib/pkgconfig/lcms2.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/jpgicc.exe",
+        "path_type": "hardlink",
+        "sha256": "e1d08f562de86e0799b68e80065bb4d462f8eb2238e221f05f267150038af398",
+        "size_in_bytes": 269312,
+        "sha256_in_prefix": "e1d08f562de86e0799b68e80065bb4d462f8eb2238e221f05f267150038af398"
+      },
+      {
+        "_path": "Library/bin/lcms2.dll",
+        "path_type": "hardlink",
+        "sha256": "d183dc2474a957dbfb455192a64049d6b273577539955ddc8f7ab8ed3e138d95",
+        "size_in_bytes": 581632,
+        "sha256_in_prefix": "d183dc2474a957dbfb455192a64049d6b273577539955ddc8f7ab8ed3e138d95"
+      },
+      {
+        "_path": "Library/bin/linkicc.exe",
+        "path_type": "hardlink",
+        "sha256": "887fa655c8dedf61d1a72bd625ad920341350d74dc0b4bbf7ff5624b8819a499",
+        "size_in_bytes": 450048,
+        "sha256_in_prefix": "887fa655c8dedf61d1a72bd625ad920341350d74dc0b4bbf7ff5624b8819a499"
+      },
+      {
+        "_path": "Library/bin/psicc.exe",
+        "path_type": "hardlink",
+        "sha256": "93384075d2692a34d813e5ff9b4914ed2bd36de3af47c227efb1e9f6dd52346a",
+        "size_in_bytes": 457216,
+        "sha256_in_prefix": "93384075d2692a34d813e5ff9b4914ed2bd36de3af47c227efb1e9f6dd52346a"
+      },
+      {
+        "_path": "Library/bin/tificc.exe",
+        "path_type": "hardlink",
+        "sha256": "26d92c81afddbd09fb977a1aabc1e107493d5118d39d8cca01997bdfba5137d1",
+        "size_in_bytes": 288768,
+        "sha256_in_prefix": "26d92c81afddbd09fb977a1aabc1e107493d5118d39d8cca01997bdfba5137d1"
+      },
+      {
+        "_path": "Library/bin/transicc.exe",
+        "path_type": "hardlink",
+        "sha256": "ea8ae365dfb1cf41322aa505406ee8dff06783a3449dd3fbb97720e3009751bb",
+        "size_in_bytes": 495104,
+        "sha256_in_prefix": "ea8ae365dfb1cf41322aa505406ee8dff06783a3449dd3fbb97720e3009751bb"
+      },
+      {
+        "_path": "Library/include/lcms2.h",
+        "path_type": "hardlink",
+        "sha256": "67f73413d7168a0cf7fa94ff3eb0d795fb75668b07d02e6ff583110166ca0f38",
+        "size_in_bytes": 108852,
+        "sha256_in_prefix": "67f73413d7168a0cf7fa94ff3eb0d795fb75668b07d02e6ff583110166ca0f38"
+      },
+      {
+        "_path": "Library/include/lcms2_plugin.h",
+        "path_type": "hardlink",
+        "sha256": "f822480420e2237efce5b9cb4f64e5db2cf299e2e58e4e0a25fc899a61a3cc63",
+        "size_in_bytes": 31557,
+        "sha256_in_prefix": "f822480420e2237efce5b9cb4f64e5db2cf299e2e58e4e0a25fc899a61a3cc63"
+      },
+      {
+        "_path": "Library/lib/lcms2.lib",
+        "path_type": "hardlink",
+        "sha256": "3a7c97454697d504672aea9e8f4468c9c9be1a94aa0bc6584c7143a8437fcfa5",
+        "size_in_bytes": 86154,
+        "sha256_in_prefix": "3a7c97454697d504672aea9e8f4468c9c9be1a94aa0bc6584c7143a8437fcfa5"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/lcms2.pc",
+        "prefix_placeholder": "D:/bld/lcms2_1789051869277/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "b71c6b14513fb4134d12a1c7399b0d48424205585ed57ba150ef22e35d6ec1b9",
+        "size_in_bytes": 356,
+        "sha256_in_prefix": "d8cd2bd466a8bc883a023a8b5ba1915a830b90b9549dcd937af9a1166d5cef85"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\lcms2-2.19.1-hf2c6c5f_3",
+    "type": 1
+  }
+}

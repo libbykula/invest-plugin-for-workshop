@@ -1,0 +1,213 @@
+{
+  "name": "geometamaker",
+  "version": "0.4.0",
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "geometamaker-0.4.0-pyhd8ed1ab_0.conda",
+  "md5": "095b95ecfe31ff9351f6e8c99c64ceb6",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geometamaker-0.4.0-pyhd8ed1ab_0.conda",
+  "sha256": "b8e18ab79ab4e701968555836a91ce240dd37712b2c3631290b9a800a08b5464",
+  "depends": [
+    "aiohttp",
+    "click",
+    "fsspec",
+    "gdal",
+    "numpy",
+    "pandas",
+    "platformdirs",
+    "pydantic >=2.0",
+    "pygeoprocessing >=2.4.5",
+    "python >=3.11",
+    "pyyaml",
+    "requests"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "Apache-2.0",
+  "package_type": "noarch_python",
+  "timestamp": 1788868203868,
+  "size": 39289,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\geometamaker-0.4.0-pyhd8ed1ab_0.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\geometamaker-0.4.0-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/METADATA",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/RECORD",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/REQUESTED",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/WHEEL",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/direct_url.json",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/entry_points.txt",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/geometamaker-0.4.0.dist-info/top_level.txt",
+    "Lib/site-packages/geometamaker/__init__.py",
+    "Lib/site-packages/geometamaker/cli.py",
+    "Lib/site-packages/geometamaker/config.py",
+    "Lib/site-packages/geometamaker/geometamaker.py",
+    "Lib/site-packages/geometamaker/models.py",
+    "Lib/site-packages/geometamaker/utils.py",
+    "Lib/site-packages/geometamaker/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/geometamaker/__pycache__/cli.cpython-314.pyc",
+    "Lib/site-packages/geometamaker/__pycache__/config.cpython-314.pyc",
+    "Lib/site-packages/geometamaker/__pycache__/geometamaker.cpython-314.pyc",
+    "Lib/site-packages/geometamaker/__pycache__/models.cpython-314.pyc",
+    "Lib/site-packages/geometamaker/__pycache__/utils.cpython-314.pyc",
+    "Scripts/geometamaker-script.py",
+    "Scripts/geometamaker.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e50775126fb140b31b47cd5fe7e89f07ffd1ae1fbc4f15b50ec86e5103e1be26",
+        "size_in_bytes": 20377,
+        "sha256_in_prefix": "e50775126fb140b31b47cd5fe7e89f07ffd1ae1fbc4f15b50ec86e5103e1be26"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a09b7d4a4b3ab5d3815c2834fa60d1e6d0dbb3078aa6139985c28c39046a460e",
+        "size_in_bytes": 1697,
+        "sha256_in_prefix": "a09b7d4a4b3ab5d3815c2834fa60d1e6d0dbb3078aa6139985c28c39046a460e"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "35178fb502f768833127914ef3f87ca7643e6b3525bbbb8bbb033d4f4d2332fb",
+        "size_in_bytes": 108,
+        "sha256_in_prefix": "35178fb502f768833127914ef3f87ca7643e6b3525bbbb8bbb033d4f4d2332fb"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "7d8f279a9c6638ee64038ec40692812b36aadee675b563c0d6c0604492af554e",
+        "size_in_bytes": 54,
+        "sha256_in_prefix": "7d8f279a9c6638ee64038ec40692812b36aadee675b563c0d6c0604492af554e"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+        "size_in_bytes": 11560,
+        "sha256_in_prefix": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+      },
+      {
+        "_path": "site-packages/geometamaker-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "726df868a1afac7c8482a3578b70b1f4b4d4d529bbf6bd51929419a72f4ca310",
+        "size_in_bytes": 13,
+        "sha256_in_prefix": "726df868a1afac7c8482a3578b70b1f4b4d4d529bbf6bd51929419a72f4ca310"
+      },
+      {
+        "_path": "site-packages/geometamaker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c734563b32c1542e72212fd72a82076daff65354ff92718c8d7edfbd01bc78ab",
+        "size_in_bytes": 481,
+        "sha256_in_prefix": "c734563b32c1542e72212fd72a82076daff65354ff92718c8d7edfbd01bc78ab"
+      },
+      {
+        "_path": "site-packages/geometamaker/cli.py",
+        "path_type": "hardlink",
+        "sha256": "fd83de2c7484c4fd331418833de3a364ebbce1576d8ba4a2441a47c0de9951b0",
+        "size_in_bytes": 10998,
+        "sha256_in_prefix": "fd83de2c7484c4fd331418833de3a364ebbce1576d8ba4a2441a47c0de9951b0"
+      },
+      {
+        "_path": "site-packages/geometamaker/config.py",
+        "path_type": "hardlink",
+        "sha256": "2ab0ce166fd66b5e62640983c69cbfca2cc15b7a087f48aba80562ac519618b6",
+        "size_in_bytes": 1964,
+        "sha256_in_prefix": "2ab0ce166fd66b5e62640983c69cbfca2cc15b7a087f48aba80562ac519618b6"
+      },
+      {
+        "_path": "site-packages/geometamaker/geometamaker.py",
+        "path_type": "hardlink",
+        "sha256": "2846f9b3f1fb17fbecefd306830cf044017203eac11c6644f4774a5ff39110e9",
+        "size_in_bytes": 33222,
+        "sha256_in_prefix": "2846f9b3f1fb17fbecefd306830cf044017203eac11c6644f4774a5ff39110e9"
+      },
+      {
+        "_path": "site-packages/geometamaker/models.py",
+        "path_type": "hardlink",
+        "sha256": "e3645b34d62c330424cc3369ff514f85e0d41c1ca37731fddc82b9a04eb4bbbf",
+        "size_in_bytes": 35686,
+        "sha256_in_prefix": "e3645b34d62c330424cc3369ff514f85e0d41c1ca37731fddc82b9a04eb4bbbf"
+      },
+      {
+        "_path": "site-packages/geometamaker/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4db9402d2ebddcfabf79a80e017a5686ecf8bfc0c076359e309bdc9c133bed9d",
+        "size_in_bytes": 2635,
+        "sha256_in_prefix": "4db9402d2ebddcfabf79a80e017a5686ecf8bfc0c076359e309bdc9c133bed9d"
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/cli.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 14510
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/config.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3317
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/geometamaker.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 37450
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/models.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 40189
+      },
+      {
+        "_path": "Lib/site-packages/geometamaker/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 4064
+      },
+      {
+        "_path": "Scripts/geometamaker-script.py",
+        "path_type": "windows_python_entry_point_script",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "Scripts/geometamaker.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\geometamaker-0.4.0-pyhd8ed1ab_0",
+    "type": 1
+  }
+}

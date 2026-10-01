@@ -1,0 +1,33 @@
+{
+  "name": "libpython",
+  "version": "3.14.7",
+  "build": "h4f90d01_106_cp314",
+  "build_number": 106,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libpython-3.14.7-h4f90d01_106_cp314.conda",
+  "md5": "2d48db2a15a7b768bb563d2675c99b2c",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libpython-3.14.7-h4f90d01_106_cp314.conda",
+  "sha256": "95b7bd6fec10031b44b20276e57c11d71cd1095f966aa84c1bba5ece0eea64d2",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Python-2.0",
+  "timestamp": 1788384361391,
+  "size": 51250,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpython-3.14.7-h4f90d01_106_cp314.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpython-3.14.7-h4f90d01_106_cp314",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libpython-3.14.7-h4f90d01_106_cp314",
+    "type": 1
+  }
+}

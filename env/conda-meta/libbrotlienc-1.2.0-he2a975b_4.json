@@ -1,0 +1,62 @@
+{
+  "name": "libbrotlienc",
+  "version": "1.2.0",
+  "build": "he2a975b_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libbrotlienc-1.2.0-he2a975b_4.conda",
+  "md5": "562b5e39b7797423e7fd04bae1c6ad70",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlienc-1.2.0-he2a975b_4.conda",
+  "sha256": "d6744e57961728e12e4ac8e54bb0edd235a1c34d663a9df0dd153f9540a799bc",
+  "depends": [
+    "libbrotlicommon 1.2.0 hf02afa3_4",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1788480399742,
+  "size": 253586,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libbrotlienc-1.2.0-he2a975b_4.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libbrotlienc-1.2.0-he2a975b_4",
+  "files": [
+    "Library/bin/brotlienc.dll",
+    "Library/lib/brotlienc.lib",
+    "Library/lib/pkgconfig/libbrotlienc.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/brotlienc.dll",
+        "path_type": "hardlink",
+        "sha256": "6ca1d3f6061403682356cb19327d85ec0611b049330a10f979d6b3d0a8608206",
+        "size_in_bytes": 678912,
+        "sha256_in_prefix": "6ca1d3f6061403682356cb19327d85ec0611b049330a10f979d6b3d0a8608206"
+      },
+      {
+        "_path": "Library/lib/brotlienc.lib",
+        "path_type": "hardlink",
+        "sha256": "6121b22d280a08b38c952ec617fd48860629e51b56f5eb38c8395cd257d087f4",
+        "size_in_bytes": 4990,
+        "sha256_in_prefix": "6121b22d280a08b38c952ec617fd48860629e51b56f5eb38c8395cd257d087f4"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libbrotlienc.pc",
+        "prefix_placeholder": "D:/bld/brotli-split_1788480196539/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "0c35e087984457beac9e798f4bcf479ef196383bebc082a902a78f136d5811b0",
+        "size_in_bytes": 385,
+        "sha256_in_prefix": "8d81a7088ce9a19612699e69f915451f0547f647a6ecbbd999095bcff193da8f"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libbrotlienc-1.2.0-he2a975b_4",
+    "type": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "libblas",
+  "version": "3.11.0",
+  "build": "11_h8455456_mkl",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "libblas-3.11.0-11_h8455456_mkl.conda",
+  "md5": "a63c8b08343d276a552c395f495987fa",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-11_h8455456_mkl.conda",
+  "sha256": "51a38b02bacb5a4b546d41aeb0f7921ee85c0ec1009fdcb58635bcad06f2eb1a",
+  "depends": [
+    "mkl >=2026.1.0,<2027.0a0"
+  ],
+  "constrains": [
+    "blas 2.311 mkl",
+    "libcblas 3.11.0 11*_mkl",
+    "liblapack 3.11.0 11*_mkl",
+    "liblapacke 3.11.0 11*_mkl"
+  ],
+  "license": "BSD-3-Clause",
+  "timestamp": 1789061341346,
+  "size": 67059,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\libblas-3.11.0-11_h8455456_mkl.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\libblas-3.11.0-11_h8455456_mkl",
+  "files": [
+    "Library/bin/libblas.dll"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/libblas.dll",
+        "path_type": "hardlink",
+        "sha256": "1d7d3a4435efca0f40151a56e0d22b6c91fc13ca68cbcb01aabecc1be863767f",
+        "size_in_bytes": 108032,
+        "sha256_in_prefix": "1d7d3a4435efca0f40151a56e0d22b6c91fc13ca68cbcb01aabecc1be863767f"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\libblas-3.11.0-11_h8455456_mkl",
+    "type": 1
+  }
+}

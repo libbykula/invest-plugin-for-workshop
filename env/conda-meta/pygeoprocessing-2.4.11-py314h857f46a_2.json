@@ -1,0 +1,380 @@
+{
+  "name": "pygeoprocessing",
+  "version": "2.4.11",
+  "build": "py314h857f46a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "subdir": "win-64",
+  "fn": "pygeoprocessing-2.4.11-py314h857f46a_2.conda",
+  "md5": "15590de63f63a9b7efa48f4916bc1055",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pygeoprocessing-2.4.11-py314h857f46a_2.conda",
+  "sha256": "4400c871b7d2a44b7b4c06db163ca079c5bac288fe3bf6c82c3dcda914877925",
+  "depends": [
+    "gdal >=3.0.4",
+    "importlib-metadata",
+    "libgdal-core 3.12.*",
+    "libgdal-core >=3.12.4,<3.13.0a0",
+    "numpy >=1.23,<3",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "rtree >=0.8.3",
+    "scipy !=0.19.1,>=0.14.1",
+    "setuptools",
+    "shapely >=1.6.4",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1781212709841,
+  "size": 996583,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\kibby\\miniforge3\\pkgs\\pygeoprocessing-2.4.11-py314h857f46a_2.conda",
+  "extracted_package_dir": "C:\\Users\\kibby\\miniforge3\\pkgs\\pygeoprocessing-2.4.11-py314h857f46a_2",
+  "files": [
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/INSTALLER",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/METADATA",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/RECORD",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/REQUESTED",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/WHEEL",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/direct_url.json",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/top_level.txt",
+    "Lib/site-packages/pygeoprocessing/__init__.py",
+    "Lib/site-packages/pygeoprocessing/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/__pycache__/geoprocessing.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/__pycache__/kernels.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/__pycache__/slurm_utils.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/__pycache__/symbolic.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/__pycache__/utils.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/extensions.pxd",
+    "Lib/site-packages/pygeoprocessing/extensions/FastFileIterator.h",
+    "Lib/site-packages/pygeoprocessing/extensions/LRUCache.h",
+    "Lib/site-packages/pygeoprocessing/extensions/ManagedRaster.h",
+    "Lib/site-packages/pygeoprocessing/geoprocessing.py",
+    "Lib/site-packages/pygeoprocessing/geoprocessing_core.cp314-win_amd64.pyd",
+    "Lib/site-packages/pygeoprocessing/geoprocessing_core.cpp",
+    "Lib/site-packages/pygeoprocessing/geoprocessing_core.pyx",
+    "Lib/site-packages/pygeoprocessing/kernels.py",
+    "Lib/site-packages/pygeoprocessing/multiprocessing/__init__.py",
+    "Lib/site-packages/pygeoprocessing/multiprocessing/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/multiprocessing/__pycache__/raster_calculator.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/multiprocessing/raster_calculator.py",
+    "Lib/site-packages/pygeoprocessing/routing/__init__.py",
+    "Lib/site-packages/pygeoprocessing/routing/__pycache__/__init__.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/routing/__pycache__/helper_functions.cpython-314.pyc",
+    "Lib/site-packages/pygeoprocessing/routing/helper_functions.py",
+    "Lib/site-packages/pygeoprocessing/routing/routing.cp314-win_amd64.pyd",
+    "Lib/site-packages/pygeoprocessing/routing/routing.cpp",
+    "Lib/site-packages/pygeoprocessing/routing/routing.pyx",
+    "Lib/site-packages/pygeoprocessing/routing/watershed.cp314-win_amd64.pyd",
+    "Lib/site-packages/pygeoprocessing/routing/watershed.cpp",
+    "Lib/site-packages/pygeoprocessing/routing/watershed.pyx",
+    "Lib/site-packages/pygeoprocessing/slurm_utils.py",
+    "Lib/site-packages/pygeoprocessing/symbolic.py",
+    "Lib/site-packages/pygeoprocessing/utils.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c1accb4e13ec342aaa8d2e8fa4b8af2bd24e0657aac2a68ee4a9ae82dddc478d",
+        "size_in_bytes": 73391,
+        "sha256_in_prefix": "c1accb4e13ec342aaa8d2e8fa4b8af2bd24e0657aac2a68ee4a9ae82dddc478d"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "49d81ffaf5a92d3e64137eba0dde23884945bcc1fa32a8e214e1326552f693a6",
+        "size_in_bytes": 3603,
+        "sha256_in_prefix": "49d81ffaf5a92d3e64137eba0dde23884945bcc1fa32a8e214e1326552f693a6"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8e1c6b44fded7447e6eeda01d57edd979c7a7f46eee93bded9c5b021d91b2fc5",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "8e1c6b44fded7447e6eeda01d57edd979c7a7f46eee93bded9c5b021d91b2fc5"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fd05616ee50db4808b0d1c7c3d6b61d6839b1100a2327e7ee219d245f803641b",
+        "size_in_bytes": 76,
+        "sha256_in_prefix": "fd05616ee50db4808b0d1c7c3d6b61d6839b1100a2327e7ee219d245f803641b"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "aaf01356d6f3a39c02bb7ef8252a20046de74c9751157df48ac56a3d62f61098",
+        "size_in_bytes": 1863,
+        "sha256_in_prefix": "aaf01356d6f3a39c02bb7ef8252a20046de74c9751157df48ac56a3d62f61098"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing-2.4.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a8144ebdf627e6f033a8ea34a845b8e08d5e0827ebe2088a3b92655fc4269837",
+        "size_in_bytes": 16,
+        "sha256_in_prefix": "a8144ebdf627e6f033a8ea34a845b8e08d5e0827ebe2088a3b92655fc4269837"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b623c7219f741271e6258e7200a93b07f121628d0348423446223d263fd4723f",
+        "size_in_bytes": 3238,
+        "sha256_in_prefix": "b623c7219f741271e6258e7200a93b07f121628d0348423446223d263fd4723f"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "37c6aee32ba710b96879b30885f3f0a4876ba7da9d05a982227a76cc80f6762c",
+        "size_in_bytes": 3254,
+        "sha256_in_prefix": "37c6aee32ba710b96879b30885f3f0a4876ba7da9d05a982227a76cc80f6762c"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/geoprocessing.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e95b755696bb595ab9a2ba06adde02c2b82664b2a6baad733d185e7e91c18d2f",
+        "size_in_bytes": 204549,
+        "sha256_in_prefix": "e95b755696bb595ab9a2ba06adde02c2b82664b2a6baad733d185e7e91c18d2f"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/kernels.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "87ed12a127a77b8df06feba2a826e7110f8f7dee89590ed9561d42576ba87360",
+        "size_in_bytes": 14348,
+        "sha256_in_prefix": "87ed12a127a77b8df06feba2a826e7110f8f7dee89590ed9561d42576ba87360"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/slurm_utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "d241f154b5edcebea0c835dd5ce19265f85fef23cd36a078019e237757bc74ab",
+        "size_in_bytes": 2389,
+        "sha256_in_prefix": "d241f154b5edcebea0c835dd5ce19265f85fef23cd36a078019e237757bc74ab"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/symbolic.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "845f890794b2af9941d98f3c9ad6cec7a337c14926163ffa5fe01a5446a11912",
+        "size_in_bytes": 9371,
+        "sha256_in_prefix": "845f890794b2af9941d98f3c9ad6cec7a337c14926163ffa5fe01a5446a11912"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/__pycache__/utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "998b75949c2cf3957d55aac83f415401a8b343ce0cb1ebf66a53b04c4bd6a6fa",
+        "size_in_bytes": 2068,
+        "sha256_in_prefix": "998b75949c2cf3957d55aac83f415401a8b343ce0cb1ebf66a53b04c4bd6a6fa"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/extensions.pxd",
+        "path_type": "hardlink",
+        "sha256": "9a17b6c99072d6147fbeb30d1f792a1fb1751e960b15285b0290a7abd6b80e7a",
+        "size_in_bytes": 4110,
+        "sha256_in_prefix": "9a17b6c99072d6147fbeb30d1f792a1fb1751e960b15285b0290a7abd6b80e7a"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/extensions/FastFileIterator.h",
+        "path_type": "hardlink",
+        "sha256": "3e3c4a66b28c385d8f671255a71a55cd759b54b71397cb401dc21309f460e265",
+        "size_in_bytes": 3697,
+        "sha256_in_prefix": "3e3c4a66b28c385d8f671255a71a55cd759b54b71397cb401dc21309f460e265"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/extensions/LRUCache.h",
+        "path_type": "hardlink",
+        "sha256": "45d8d21b8ae509f9ea0007eaac46306c0577eaf12eb4e43e723be46006b39642",
+        "size_in_bytes": 2503,
+        "sha256_in_prefix": "45d8d21b8ae509f9ea0007eaac46306c0577eaf12eb4e43e723be46006b39642"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/extensions/ManagedRaster.h",
+        "path_type": "hardlink",
+        "sha256": "ef846b17248bf51d05253be3fc1d6b9db20e35498d84c3615c22bd5cd0efb5af",
+        "size_in_bytes": 27312,
+        "sha256_in_prefix": "ef846b17248bf51d05253be3fc1d6b9db20e35498d84c3615c22bd5cd0efb5af"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/geoprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "a94d1c72de9fcfbeab990f9c8802308cb2f073237cfe3043a7ffdfcadda32cc7",
+        "size_in_bytes": 219828,
+        "sha256_in_prefix": "a94d1c72de9fcfbeab990f9c8802308cb2f073237cfe3043a7ffdfcadda32cc7"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/geoprocessing_core.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "5eb7ade4010e67c3b41a2c7bb62dceb9a246af83411649ef2b9874b97acef55e",
+        "size_in_bytes": 297472,
+        "sha256_in_prefix": "5eb7ade4010e67c3b41a2c7bb62dceb9a246af83411649ef2b9874b97acef55e"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/geoprocessing_core.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\pygeoprocessing_1781212445849\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "a1608c7121be64833b1a2afd4811b9f210f1d5fe6c5832edd6ee5b8a851e7ff7",
+        "size_in_bytes": 1985060,
+        "sha256_in_prefix": "e3a4e1068548fdee80522d95fef531055ff5dd9c9a6dfcb421ee7504e010872a"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/geoprocessing_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "3f779b8d0fbfbdbd11436c27e370b43121716ef238b76a19b4473c30a2c5922e",
+        "size_in_bytes": 41948,
+        "sha256_in_prefix": "3f779b8d0fbfbdbd11436c27e370b43121716ef238b76a19b4473c30a2c5922e"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/kernels.py",
+        "path_type": "hardlink",
+        "sha256": "41cce76ef1d1405b59cb86b9e46fe7c14e4adaea7dba03d6059ae011fe2d8c37",
+        "size_in_bytes": 12219,
+        "sha256_in_prefix": "41cce76ef1d1405b59cb86b9e46fe7c14e4adaea7dba03d6059ae011fe2d8c37"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/multiprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cce6a6f50ecee0851e114bcb14724645686ba4e288dbe1b341502e2894976643",
+        "size_in_bytes": 81,
+        "sha256_in_prefix": "cce6a6f50ecee0851e114bcb14724645686ba4e288dbe1b341502e2894976643"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/multiprocessing/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3a9c499f28caa6458cf2313c02dbd899f1d474edfe0f1aa05a38579df7e1005",
+        "size_in_bytes": 231,
+        "sha256_in_prefix": "b3a9c499f28caa6458cf2313c02dbd899f1d474edfe0f1aa05a38579df7e1005"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/multiprocessing/__pycache__/raster_calculator.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ad9a01fcfc05ceeb93f8be26e9adb7435b59fbdf3261feaea4ce780239665c2",
+        "size_in_bytes": 26567,
+        "sha256_in_prefix": "6ad9a01fcfc05ceeb93f8be26e9adb7435b59fbdf3261feaea4ce780239665c2"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/multiprocessing/raster_calculator.py",
+        "path_type": "hardlink",
+        "sha256": "a8841bc179bc59344fd10f46112514d65299af28f7c54e887d28fe143365a92d",
+        "size_in_bytes": 27118,
+        "sha256_in_prefix": "a8841bc179bc59344fd10f46112514d65299af28f7c54e887d28fe143365a92d"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a7d94c2d6ca8b72c716479797aa9ecab2bd92c3ce6db33863d5f9c836c5159bc",
+        "size_in_bytes": 1373,
+        "sha256_in_prefix": "a7d94c2d6ca8b72c716479797aa9ecab2bd92c3ce6db33863d5f9c836c5159bc"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f7edac1676097a9c1cdf600a29c0f1f1e11622b974d44f3244fa206673d58f6",
+        "size_in_bytes": 975,
+        "sha256_in_prefix": "7f7edac1676097a9c1cdf600a29c0f1f1e11622b974d44f3244fa206673d58f6"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/__pycache__/helper_functions.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa56fedfa7a005cce9eaa1984ed9dbe09f3b368747cc7d87b295e8235f67b691",
+        "size_in_bytes": 2927,
+        "sha256_in_prefix": "aa56fedfa7a005cce9eaa1984ed9dbe09f3b368747cc7d87b295e8235f67b691"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/helper_functions.py",
+        "path_type": "hardlink",
+        "sha256": "03d55a791555cd016f3343ed4b143a22da2f55173c807f86582b54feb4a0f24c",
+        "size_in_bytes": 2581,
+        "sha256_in_prefix": "03d55a791555cd016f3343ed4b143a22da2f55173c807f86582b54feb4a0f24c"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/routing.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "870ec08005aa6c1597c50e9802163be93cce42f82ca2766a98fa8b5aa35a454d",
+        "size_in_bytes": 541184,
+        "sha256_in_prefix": "870ec08005aa6c1597c50e9802163be93cce42f82ca2766a98fa8b5aa35a454d"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/routing.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\pygeoprocessing_1781212445849\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "406a9be858d0d2f64b2cb2076259214f6110af7b5943a12ae9b5d70628828ae8",
+        "size_in_bytes": 3383281,
+        "sha256_in_prefix": "618bbce600bc68f1321b9a3512ba44c417a0ba374c0df61330f68567986d05e0"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/routing.pyx",
+        "path_type": "hardlink",
+        "sha256": "dfba1c0cc6a7cd29a9258f784d0ba0c127d7ca4186886b50eaf9cf4f72019f0b",
+        "size_in_bytes": 217588,
+        "sha256_in_prefix": "dfba1c0cc6a7cd29a9258f784d0ba0c127d7ca4186886b50eaf9cf4f72019f0b"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/watershed.cp314-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ad7e08ce259e9fd16b2a31e3fde03112e89ef82eccb65350bf9c66ca073f4105",
+        "size_in_bytes": 169984,
+        "sha256_in_prefix": "ad7e08ce259e9fd16b2a31e3fde03112e89ef82eccb65350bf9c66ca073f4105"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/watershed.cpp",
+        "prefix_placeholder": "D:\\\\bld\\\\pygeoprocessing_1781212445849\\\\_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "209136375798c0e24616a5f3efa9e6a60b5735604afa915436fe107442477d8e",
+        "size_in_bytes": 987654,
+        "sha256_in_prefix": "76f1137005ea2be1b2e06263de005443a30447f7ceebff42768cf676c6030a97"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/routing/watershed.pyx",
+        "path_type": "hardlink",
+        "sha256": "8ba8ec616dff60f74b39179d470ff0220809296f1f6141af14f7c053a342999a",
+        "size_in_bytes": 30699,
+        "sha256_in_prefix": "8ba8ec616dff60f74b39179d470ff0220809296f1f6141af14f7c053a342999a"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/slurm_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8fd9f54f3aad64a687fbcec8e355680629bad4e56f4dc1871b8257422e0df318",
+        "size_in_bytes": 2600,
+        "sha256_in_prefix": "8fd9f54f3aad64a687fbcec8e355680629bad4e56f4dc1871b8257422e0df318"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/symbolic.py",
+        "path_type": "hardlink",
+        "sha256": "c522dfaa6bce36b9e267236aeed809e490f1c93106b33102f1c65dd39b233bed",
+        "size_in_bytes": 8917,
+        "sha256_in_prefix": "c522dfaa6bce36b9e267236aeed809e490f1c93106b33102f1c65dd39b233bed"
+      },
+      {
+        "_path": "Lib/site-packages/pygeoprocessing/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3fff49057f7b90252d0ddbff25b892e372ff41a4ed986495fced196e1a9ba3da",
+        "size_in_bytes": 871,
+        "sha256_in_prefix": "3fff49057f7b90252d0ddbff25b892e372ff41a4ed986495fced196e1a9ba3da"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\kibby\\miniforge3\\pkgs\\pygeoprocessing-2.4.11-py314h857f46a_2",
+    "type": 1
+  }
+}
