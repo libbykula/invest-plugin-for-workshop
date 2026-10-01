@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: invest-plugin-for-workshop
+Version: 0.1.dev38+gbfe972c7b
+Requires-Dist: pygeoprocessing
+Requires-Dist: taskgraph
+Requires-Dist: natcap.invest>=3.18.0

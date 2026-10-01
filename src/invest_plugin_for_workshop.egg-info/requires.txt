@@ -1,0 +1,3 @@
+pygeoprocessing
+taskgraph
+natcap.invest>=3.18.0
